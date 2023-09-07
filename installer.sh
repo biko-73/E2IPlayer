@@ -13,8 +13,8 @@
 # Plugin	... Enter Manually
 ##############################################################################################################
 
-MY_IPK_PY2="enigma2-plugin-extensions-e2iplayer-py2_2023.08.18.01_all.ipk"
-MY_IPK_PY3="enigma2-plugin-extensions-e2iplayer-py3_2023.08.18.01_all.ipk"
+MY_IPK_PY2="enigma2-plugin-extensions-e2iplayer_2023.08.18.01_all_Py2.ipk"
+MY_IPK_PY3="enigma2-plugin-extensions-e2iplayer_2023.08.18.01_all_Py3.ipk"
 
 PACKAGE_DIR='E2IPlayer/main'
 
