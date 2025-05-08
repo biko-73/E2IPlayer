@@ -1,0 +1,4686 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: IPTVPlayer\n"
+"POT-Creation-Date: 2013-12-15 12:19+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: giorbak <Greece>\n"
+"Language-Team: giorbak\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../plugin\n"
+
+msgid ""
+"\n"
+"For more info please ask the author samsamsam@o2.pl"
+msgstr ""
+"\n"
+"Για περισσότερες πληροφορίες, ρωτήστε τον συγγραφέα samsamsam@o2.pl"
+
+msgid ""
+"\n"
+"For more info please visit http://fluendo.com/"
+msgstr ""
+"\n"
+"Για περισσότερες πληροφορίες, επισκεφθείτε το http://fluendo.com/"
+
+msgid ""
+"\n"
+"Make sure you are using the latest version of the plugin."
+msgstr ""
+"\n"
+"Βεβαιωθείτε ότι χρησιμοποιείτε την τελευταία έκδοση του πρόσθετου."
+
+msgid ""
+"\n"
+"Please use \"Web\" streams player -> WeebTV instead."
+msgstr ""
+"\n"
+"Παρακαλώ χρησιμοποιήστε την αναπαραγωγή ροών \"Web\" -> αντί WeebTV."
+
+msgid ""
+"\n"
+"This host is not integral part of the IPTVPlayer plugin.\n"
+"It is not supported by IPTVPlayer team."
+msgstr ""
+"\n"
+"Αυτός ο host δεν αποτελεί αναπόσπαστο μέρος του πρόσθετου IPTVPlayer.\n"
+"Δεν υποστηρίζεται από την ομάδα IPTVPlayer."
+
+msgid ""
+"\n"
+"You can also report problem here: \n"
+"https://gitlab.com/iptvplayer-for-e2/iptvplayer-for-e2/issues\n"
+"or here: samsamsam@o2.pl"
+msgstr ""
+"\n"
+"Μπορείτε επίσης να αναφέρετε το πρόβλημα εδώ:\n"
+"https://gitlab.com/iptvplayer-for-e2/iptvplayer-for-e2/issues\n"
+"ή εδώ: samsamsam@o2.pl"
+
+msgid "    Buffer size [MB]"
+msgstr "    Μέγεθος προφόρτωσης [MB]"
+
+msgid "  alltubetv login:"
+msgstr "  Σύνδεση alltubetv:"
+
+msgid "  alltubetv password:"
+msgstr "  Κωδικός πρόσβασης alltubeTV:"
+
+msgid " (chunk %s)"
+msgstr " (κομμάτι %s)"
+
+msgid " - mobile broadcast url"
+msgstr " - URL εκπομπής κινητού"
+
+msgid " Audio buffer size [KB]"
+msgstr " Μέγεθος προφόρτωσης ήχου [KB]"
+
+msgid " Last.fm login:"
+msgstr " Σύνδεση Last.fm:"
+
+msgid " Password"
+msgstr " Κωδικός πρόσβασης"
+
+msgid " Username or Email"
+msgstr " Όνομα χρήστη ή email"
+
+msgid " Video buffer size [MB]"
+msgstr " Μέγεθος προφόρτωσης βίντεο [MB]"
+
+msgid ""
+" has not been detected. \n"
+"Do you want to install it? "
+msgstr ""
+" δεν έχει εντοπιστεί. \n"
+"Θέλετε να το εγκαταστήσετε; "
+
+msgid ""
+" is deprecated. \n"
+"Do you want to install new one? "
+msgstr ""
+" είναι παρωχημένο. \n"
+"Θέλετε να εγκαταστήσετε ένα νέο; "
+
+msgid "\"Web\" streams player"
+msgstr "Αναπαραγωγή ροών \"Web\""
+
+msgid "%s - configuration"
+msgstr "%s - ρυθμίσεις"
+
+msgid "%s [download]"
+msgstr "%s [λήψη]"
+
+msgid "%s [watch]"
+msgstr "%s [παρακολούθηση]"
+
+msgid "%s items in category"
+msgstr "%s στοιχεία στην κατηγορία"
+
+msgid "%s viewers, %s channels"
+msgstr "%s προβολές, %s κανάλια"
+
+msgid "%s will be used by IPTVPlayer."
+msgstr "Το %s θα χρησιμοποιηθεί από IPTVPlayer."
+
+msgid "----------Other----------"
+msgstr "----------Άλλα----------"
+
+msgid "--All--"
+msgstr "--Όλα--"
+
+msgid "--Other--"
+msgstr "--Άλλα-"
+
+msgid "..............."
+msgstr ""
+
+msgid "> Press OK to start <"
+msgstr "> Πατήστε OK για έναρξη <"
+
+msgid "ABORTED"
+msgstr "ΜΑΤΑΙΩΣΗ"
+
+msgid "AC3 mix mode"
+msgstr "Λειτουργία μίξης AC3"
+
+msgid "ARTICLE"
+msgstr "ΆΡΘΡΟ"
+
+msgid "AUDIO"
+msgstr "ΉΧΟΣ"
+
+msgid "Aborted"
+msgstr "Ματαίωση"
+
+msgid "Access status: "
+msgstr "Κατάσταση πρόσβασης: "
+
+msgid "Access status: [%r]"
+msgstr "Κατάσταση πρόσβασης: [%r]"
+
+msgid "Add item to favourites"
+msgstr "Προσθήκη στοιχείου στα αγαπημένα"
+
+msgid "Add item to group"
+msgstr "Προσθήκη στοιχείου στην ομάδα"
+
+msgid "Add new group"
+msgstr "Προσθήκη νέας ομάδας"
+
+msgid "Add new group of favourites"
+msgstr "Προσθήκη νέας ομάδας αγαπημένων"
+
+msgid "Albums"
+msgstr "Άλμπουμ"
+
+msgid "All"
+msgstr "Όλα"
+
+msgid "All TV shows"
+msgstr "Όλες οι τηλεοπτικές εκπομπές"
+
+msgid "All in one"
+msgstr "Όλα σε ένα"
+
+msgid "All movies"
+msgstr "Όλες οι ταινίες"
+
+msgid "All programs in the Live Stream"
+msgstr "Όλα τα προγράμματα σε Ζωντανή ροή"
+
+msgid "Allow dash format:"
+msgstr "Επιτρέπεται η μορφή παύλας:"
+
+msgid "Allow hls format"
+msgstr "Επιτρέπεται η μορφή hls"
+
+msgid "Alternative geolocation IP 1:"
+msgstr "Εναλλακτική γεωγραφική θέση της IP 1:"
+
+msgid "Alternative geolocation IP 2:"
+msgstr "Εναλλακτική γεωγραφική θέση της IP 2:"
+
+msgid ""
+"An error occurred when try to sign in the user \"%s.\n"
+"Please check your login credentials and try again later...\""
+msgstr ""
+"Εμφανίστηκε σφάλμα κατά την προσπάθεια σύνδεσης του χρήστη \"%s.\n"
+"Παρακαλώ ελέγξτε τα στοιχεία σύνδεσής σας και προσπαθήστε ξανά αργότερα...\""
+
+msgid "An error occurred while loading a subtitle from [%s]."
+msgstr "Παρουσιάστηκε σφάλμα κατά τη φόρτωση ενός υπότιτλου από το [%s]."
+
+msgid "An unknown error has occurred."
+msgstr "Παρουσιάστηκε άγνωστο σφάλμα."
+
+msgid "Anuluj"
+msgstr "Ματαίωση"
+
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+msgid "Archive"
+msgstr "Αρχείο"
+
+msgid "Are you sure you want to remove file \"%s\"?"
+msgstr "Είστε βέβαιοι ότι θέλετε να αφαιρέσετε το αρχείο \"%s\";"
+
+msgid "Aspect"
+msgstr "Λόγος"
+
+msgid "Audio buffer size [KB]"
+msgstr "Μέγεθος προφόρτωσης ήχου [KB]"
+
+msgid "Auto"
+msgstr "Αυτόματο"
+
+msgid "Auto selection based on the settings"
+msgstr "Αυτόματη επιλογή με βάση τις ρυθμίσεις"
+
+msgid "Autors: samsamsam, zdzislaw22, mamrot, MarcinO, skalita, huball, matzg"
+msgstr "Συγγραφείς: samsamsam, zdzislaw22, mamrot, MarcinO, skalita, huball, matzg"
+
+msgid "Autors: samsamsam, zdzislaw22, mamrot, MarcinO, skalita, huball, matzg, tomashj291"
+msgstr "Συγγραφείς: samsamsam, zdzislaw22, mamrot, MarcinO, skalita, huball, matzg, tomashj291"
+
+msgid "Broadcasts"
+msgstr "Εκπομπές"
+
+msgid "Browse"
+msgstr "Περιήγηση"
+
+msgid "Buffer path"
+msgstr "Διαδρομή προφόρτωσης"
+
+msgid "CATEGORY"
+msgstr "ΚΑΤΗΓΟΡΊΑ"
+
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+msgid "Ceska"
+msgstr "Τσέχικα"
+
+msgid "Change active movie player"
+msgstr "Αλλαγή ενεργής αναπαραγωγής ταινιών"
+
+msgid "Channel"
+msgstr "Κανάλι"
+
+msgid "Channels"
+msgstr "Κανάλια"
+
+msgid "Checking version."
+msgstr "Έλεγχος έκδοσης."
+
+msgid "Cinema movies"
+msgstr "Κινηματογραφικές ταινίες"
+
+msgid "Collection"
+msgstr "Συλλογή"
+
+msgid "Completed."
+msgstr "Ολοκληρώθηκε."
+
+msgid "Completed.\n"
+msgstr "Ολοκληρώθηκε.\n"
+
+msgid "Configuration"
+msgstr "Ρυθμίσεις"
+
+msgid "Configuration for service[%s]"
+msgstr "Ρυθμίσεις για την υπηρεσία [%s]"
+
+msgid "Configure IPTV Player"
+msgstr "Ρύθμιση IPTV Player"
+
+msgid "Configure host"
+msgstr "Ρύθμιση host"
+
+msgid "Configuring an external movie player"
+msgstr "Ρύθμιση εξωτερικής αναπαραγωγής ταινιών"
+
+msgid "Confirm title of the movie"
+msgstr "Επιβεβαίωση του τίτλου της ταινίας"
+
+msgid "Confirmation of installation."
+msgstr "Επικύρωση εγκατάστασης."
+
+msgid "Continue downloading"
+msgstr "Συνέχιση λήψης"
+
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+msgid ""
+"Could not read from resource.\n"
+"code: %r"
+msgstr ""
+"Δεν ήταν δυνατή η ανάγνωση από τον πόρο.\n"
+"κωδικός: %r"
+
+msgid ""
+"Could not read from resource.\n"
+"code: %s"
+msgstr ""
+"Δεν ήταν δυνατή η ανάγνωση από τον πόρο.\n"
+"κωδικός: %s"
+
+msgid "Countries"
+msgstr "Χώρες"
+
+msgid "Country (changing may be illegal in your country)"
+msgstr "Χώρα (η αλλαγή μπορεί να είναι παράνομη στη χώρα σας)"
+
+msgid "Currently you have version [%s]."
+msgstr "Αυτήν τη στιγμή έχετε την έκδοση [%s]."
+
+msgid "Cut"
+msgstr "Αποκοπή"
+
+msgid "DOWNLOAD ERROR"
+msgstr "ΣΦΑΛΜΑ ΛΗΨΗΣ"
+
+msgid "DOWNLOADED"
+msgstr "ΕΓΙΝΕ ΛΗΨΗ"
+
+msgid "DOWNLOADING"
+msgstr "ΓΙΝΕΤΑΙ ΛΗΨΗ"
+
+msgid "Daily"
+msgstr "Καθημερινά"
+
+msgid "Default second video policy"
+msgstr "Προεπιλεγμένη δεύτερη πολιτική βίντεο"
+
+msgid "Default video aspect ratio"
+msgstr "Προεπιλεγμένος λόγος πλευρών"
+
+msgid "Default video policy"
+msgstr "Προεπιλεγμένη πολιτική βίντεο"
+
+msgid "Default video quality:"
+msgstr "Προεπιλεγμένη ποιότητα βίντεο:"
+
+msgid "Description:"
+msgstr "Περιγραφή:"
+
+msgid "Detection of the \"%s\" utility."
+msgstr "Εντοπισμός της εφαρμογής \"%s\"."
+
+msgid "Detection of the OpenSSL version."
+msgstr "Εντοπισμός της έκδοσης OpenSSL."
+
+msgid "Detection of the ffmpeg version."
+msgstr "Εντοπισμός της έκδοσης ffmpeg."
+
+msgid "Detection of the gstreamer version."
+msgstr "Εντοπισμός της έκδοσης gstreamer."
+
+msgid "Detection of the platform."
+msgstr "Εντοπισμός της πλατφόρμας."
+
+msgid "Deutsch"
+msgstr "Γερμανικά"
+
+msgid "Developers: "
+msgstr "Προγραμματιστές: "
+
+msgid "Device ID"
+msgstr "ID συσκευής"
+
+msgid "Disable host protection (error == GS)"
+msgstr "Απενεργοποίηση προστασίας host (σφάλμα == GS)"
+
+msgid "Disable reordering mode"
+msgstr "Απενεργοποίηση λειτουργίας αναδιάταξης"
+
+msgid "Display order:"
+msgstr "Σειρά εμφάνισης:"
+
+msgid "Do not install (not recommended)"
+msgstr "Να μην εγκατασταθεί (δεν συνιστάται)"
+
+msgid "Download again"
+msgstr "Λήψη ξανά"
+
+msgid ""
+"Download can not be started.\n"
+" Incorrect address ('%r')."
+msgstr ""
+"Η λήψη δεν μπορεί να ξεκινήσει.\n"
+" Λανθασμένη διεύθυνση ('%r')."
+
+msgid ""
+"Download can not be started.\n"
+"Downloader %s not working correctly.\n"
+"Status[%s]"
+msgstr ""
+"Η λήψη δεν μπορεί να ξεκινήσει.\n"
+"Το πρόγραμμα λήψης %s δεν λειτουργεί σωστά.\n"
+"Κατάσταση[%s]"
+
+msgid ""
+"Download failed.\n"
+"Status[%s]"
+msgstr ""
+"Η λήψη απέτυχε.\n"
+"Κατάσταση[%s]"
+
+msgid "Download subtitle \"%s\""
+msgstr "Λήψη υποτίτλου \"%s\""
+
+msgid "Download subtitle %s"
+msgstr "Λήψη υπότιτλου %s"
+
+msgid "Download suggested"
+msgstr "Λήψη προτεινόμενων"
+
+msgid "Downloading"
+msgstr "Λήψη"
+
+msgid "Downloading \"%s\" ."
+msgstr "Λήψη του \"%s\" ."
+
+msgid ""
+"Downloading \"%s\" failed. \n"
+"Do you want to retry?"
+msgstr ""
+"Η λήψη του \"%s\" απέτυχε. \n"
+"Θέλετε να δοκιμάσετε ξανά;"
+
+msgid "Downloading an update packet."
+msgstr "Λήψη πακέτου ενημέρωσης."
+
+msgid ""
+"Downloading can not be started.\n"
+" Downloader %s does not work properly.\n"
+"Status[%s]"
+msgstr ""
+"Η λήψη δεν μπορεί να ξεκινήσει.\n"
+" Το πρόγραμμα λήψης %s δεν λειτουργεί σωστά.\n"
+"Κατάσταση[%s]"
+
+msgid ""
+"Downloading can not be started.\n"
+" Downloader %s not working properly.\n"
+"Status[%s]"
+msgstr ""
+"Η λήψη δεν μπορεί να ξεκινήσει.\n"
+" Το πρόγραμμα λήψης %s δεν λειτουργεί σωστά.\n"
+"Κατάσταση[%s]"
+
+msgid ""
+"Downloading can not be started.\n"
+" The address ('%r') It is incorrect."
+msgstr ""
+"Η λήψη δεν μπορεί να ξεκινήσει.\n"
+" Η διεύθυνση ('%r') είναι λανθασμένη."
+
+msgid ""
+"Downloading can not be started.\n"
+" The address ('%r') is incorrect."
+msgstr ""
+"Η λήψη δεν μπορεί να ξεκινήσει.\n"
+" Η διεύθυνση ('%r') είναι λανθασμένη."
+
+msgid ""
+"Downloading cannot be started.\n"
+" Downloader [%s] not working properly.\n"
+" Status[%s]"
+msgstr ""
+"Δεν είναι δυνατή η έναρξη της λήψης.\n"
+" Το πρόγραμμα λήψης [%s] δεν λειτουργεί σωστά.\n"
+" Κατάσταση[%s]"
+
+msgid ""
+"Downloading cannot be started.\n"
+" Invalid URI[%s]."
+msgstr ""
+"Δεν είναι δυνατή η έναρξη της λήψης.\n"
+" Μη έγκυρο URI[%s]."
+
+msgid "Downloading file [%s] problem."
+msgstr "Πρόβλημα με τη λήψη του αρχείου [%s]."
+
+msgid ""
+"Downloading subtitles.\n"
+" ('%r')."
+msgstr ""
+"Λήψη υποτίτλων.\n"
+" ('%r')."
+
+msgid "Downloads"
+msgstr "Λήψεις"
+
+msgid "Drama Series"
+msgstr "Δραματική σειρά"
+
+msgid "During processing, please do not interrupt."
+msgstr "Κατά την εκτέλεση, παρακαλώ μη διακόπτετε."
+
+msgid "During processing, please wait."
+msgstr "Κατά την εκτέλεση, παρακαλώ περιμένετε."
+
+msgid ""
+"E2 GUI restart after IPTVPlayer update to version[%s].\n"
+"\n"
+msgstr ""
+"Επανεκκίνηση του E2 GUI μετά την ενημέρωση του IPTVPlayer στην έκδοση[%s].\n"
+"\n"
+
+msgid ""
+"ERROR: pipeline could not be constructed: no element \"playbin2\" \n"
+"Please check if gstreamer plugins are available in your system."
+msgstr ""
+"ΣΦΑΛΜΑ: αδυναμία δημιουργίας διασύνδεσης: δεν υπάρχει το στοιχείο \"playbin2\" \n"
+"Παρακαλώ ελέγξτε αν το gstreamer είναι διαθέσιμο στο σύστημά σας."
+
+msgid "Edit favourites"
+msgstr "Επεξεργασία αγαπημένων"
+
+msgid "Email"
+msgstr ""
+
+msgid "Enable reordering mode"
+msgstr "Ενεργοποίηση λειτουργίας αναδιάταξης"
+
+msgid "English"
+msgstr "Αγγλικά"
+
+msgid "Enter a value"
+msgstr "Εισάγετε μια τιμή"
+
+msgid "Enter name"
+msgstr "Εισαγωγή ονόματος"
+
+msgid "Enter pin"
+msgstr "Εισαγωγή pin"
+
+msgid "Episodes"
+msgstr "Επεισόδια"
+
+msgid "Error deleting file \"%s\" .\n"
+msgstr "Σφάλμα κατά τη διαγραφή του αρχείου \"%s\" .\n"
+
+msgid "Error occurs during download."
+msgstr "Παρουσιάζεται σφάλμα κατά τη λήψη."
+
+msgid ""
+"Error occurs during download. \n"
+"Status[%s], tmpBuffSize[%r], canRunMoviePlayer[%r]"
+msgstr ""
+"Παρουσιάζεται σφάλμα κατά τη λήψη.\n"
+"Κατάσταση[%s], tmpBuffSize[%r], canRunMoviePlayer[%r]"
+
+msgid ""
+"Error occurs.\n"
+"[%s]"
+msgstr ""
+"Παρουσιάζεται σφάλμα.\n"
+"[%μικρό]"
+
+msgid "Error reading file \"%s\" .\n"
+msgstr "Σφάλμα κατά την ανάγνωση του αρχείου \"%s\" .\n"
+
+msgid "Error writing file \"%s\" .\n"
+msgstr "Σφάλμα κατά την εγγραφή του αρχείου \"%s\" .\n"
+
+msgid "Executing user scripts."
+msgstr "Εκτέλεση script χρήστη."
+
+msgid "Exit"
+msgstr "Έξοδος"
+
+msgid "External player infobar timeout"
+msgstr "Χρόνος λήξης μπάρας πληροφοριών εξωτερικής αναπαραγωγής"
+
+msgid "External player use software decoder for the AAC"
+msgstr "Η εξωτερική αναπαραγωγή χρησιμοποιεί αποκωδικοποιητή λογισμικού για το AAC"
+
+msgid "External player use software decoder for the DTS"
+msgstr "Η εξωτερική αναπαραγωγή χρησιμοποιεί αποκωδικοποιητή λογισμικού για το DTS"
+
+msgid "Extra"
+msgstr "Επιπλέον"
+
+msgid "Extracting an update packet."
+msgstr "Το αρχείο [%s] προστέθηκε στην ουρά λήψης."
+
+msgid "Favorite addresses are stored under the file urllist.user"
+msgstr "Οι αγαπημένες διευθύνσεις αποθηκεύονται στο αρχείο urllist.user"
+
+msgid "Favorites"
+msgstr "Αγαπημένα"
+
+msgid "Favourites groups"
+msgstr "Ομάδες αγαπημένων"
+
+msgid "Favourites manager"
+msgstr "Διαχείριση αγαπημένων"
+
+msgid "Featured"
+msgstr "Προτεινόμενα"
+
+msgid "File [%s] reading failed."
+msgstr "Η ανάγνωση του αρχείου [%s] απέτυχε."
+
+msgid "File [%s] was added to downloading queue."
+msgstr "Το αρχείο [%s] προστέθηκε στην ουρά λήψης."
+
+msgid "File can not be downloaded. Protocol [%s] is unsupported"
+msgstr "Δεν είναι δυνατή η λήψη του αρχείου. Το πρωτόκολλο [%s] δεν υποστηρίζεται"
+
+msgid "Filmy"
+msgstr "Ταινίες"
+
+msgid "First movie player in buffering mode"
+msgstr "Πρώτη αναπαραγωγή ταινιών σε λειτουργία προφόρτωσης"
+
+msgid "First movie player without buffering mode"
+msgstr "Πρώτη αναπαραγωγή ταινιών χωρίς λειτουργία προφόρτωσης"
+
+msgid "Fluendo mpegdemux for GSTREAMER 0.10"
+msgstr "Το Fluendo mpegdemux για GSTREAMER 0,10"
+
+msgid "Folder for temp data"
+msgstr "Φάκελος για προσωρινά δεδομένα"
+
+msgid "Following"
+msgstr "Ακολουθούνται"
+
+msgid "Following host are broken or additional python modules are needed."
+msgstr "Οι ακόλουθοι host είναι κατεστραμμένοι ή χρειάζονται πρόσθετες μονάδες python."
+
+msgid "For children"
+msgstr "Για παιδιά"
+
+msgid "Format 'wmv' blocked in configuration."
+msgstr "Η μορφή 'wmv' έχει αποκλειστεί στις ρυθμίσεις."
+
+msgid "French"
+msgstr "Γαλλικά"
+
+msgid "GST-IFDSRC for GSTREAMER 1.X"
+msgstr "Το GST-IFDSRC για GSTREAMER 1.X"
+
+msgid "Games"
+msgstr "Παιχνίδια"
+
+msgid "Genres"
+msgstr "Είδη"
+
+msgid "German"
+msgstr "Γερμανικά"
+
+msgid "German channles"
+msgstr "Γερμανικά κανάλια"
+
+msgid "Get EPG"
+msgstr "Λήψη EPG"
+
+msgid "Get episodes list."
+msgstr "Λήψη λίστας επεισοδίων."
+
+msgid "Get item type."
+msgstr "Λήψη τύπου στοιχείου."
+
+msgid "Get supported languages list."
+msgstr "Λήψη υποστηριζόμενης λίστας γλωσσών."
+
+msgid "Global"
+msgstr "Καθολικό"
+
+msgid "Grade"
+msgstr "Βαθμολογία"
+
+msgid "Graphic services selector"
+msgstr "Επιλογέας γραφικών υπηρεσιών"
+
+msgid "Group \"%s\" already exists."
+msgstr "Η ομάδα \"%s\" υπάρχει ήδη."
+
+msgid "Group %d"
+msgstr "Ομάδα %d"
+
+msgid "Group links into categories: "
+msgstr "Ομαδοποίηση συνδέσμων σε κατηγορίες: "
+
+msgid "Group with id[%s] not found."
+msgstr "Η ομάδα με το id[%s] δεν βρέθηκε."
+
+msgid "HIGH"
+msgstr "ΥΨΗΛΗ"
+
+msgid "High (or HD)"
+msgstr "Υψηλή (ή HD)"
+
+msgid "History"
+msgstr "Ιστορικό"
+
+msgid "History of searched phrases."
+msgstr "Ιστορικό όρων αναζήτησης."
+
+msgid "Home page"
+msgstr "Αρχική σελίδα"
+
+msgid "Hosting: %s, %s"
+msgstr "Φιλοξενία: %s, %s"
+
+msgid "IPTV - Player mode"
+msgstr "IPTV - Λειτουργία αναπαραγωγής"
+
+msgid "IPTV - the recorder mode"
+msgstr "IPTV - λειτουργία εγγραφής"
+
+msgid "IPTV Player"
+msgstr ""
+
+msgid "IPTV Player "
+msgstr ""
+
+msgid "IPTV Player %s"
+msgstr ""
+
+msgid "IPTV Player - settings"
+msgstr "IPTV Player - Ρυθμίσεις"
+
+msgid "IPTV Player HD version %s"
+msgstr "IPTV Player HD έκδοση %s"
+
+msgid "IPTV Player version %s"
+msgstr "IPTV Player έκδοση %s"
+
+msgid "IPTV Recordings"
+msgstr "Εγγραφές IPTV"
+
+msgid "IPTV download manager"
+msgstr "Διαχείριση λήψεων IPTV"
+
+msgid "IPTVPlayer - update"
+msgstr "IPTVPlayer - Ενημέρωση"
+
+msgid "IPTVPlayer need some additional setup"
+msgstr "Το IPTVPlayer χρειάζεται κάποια πρόσθετη ρύθμιση"
+
+msgid ""
+"IPTVPlayer need some additional setup.\n"
+"Such as downloading and installation additional binaries.\n"
+"Press OK to start."
+msgstr ""
+"Το IPTVPlayer χρειάζεται επιπρόσθετα αρχεία.\n"
+"Απαιτείται η λήψη και η εγκατάσταση πρόσθετου υλικού.\n"
+"Πατήστε ΟΚ για να ξεκινήσει."
+
+msgid "IPTVPlayer services configuration"
+msgstr "Ρυθμίσεις υπηρεσιών IPTVPlayer"
+
+msgid "IPTVPlayer setup version %s"
+msgstr "IPTVPlayer έκδοση εγκατάστασης %s"
+
+msgid "IPTVPlayer setup version %s "
+msgstr "IPTVPlayer έκδοση εγκατάστασης %s "
+
+msgid "Icons size"
+msgstr "Μέγεθος εικονιδίων"
+
+msgid "Info"
+msgstr "Πληροφορίες"
+
+msgid "Information"
+msgstr "Πληροφορίες"
+
+msgid "Information about audio tracks not available."
+msgstr "Οι πληροφορίες σχετικά με τα κομμάτια ήχου δεν είναι διαθέσιμες."
+
+msgid "Input"
+msgstr "Εισαγωγή"
+
+msgid "Install into the \"%s\" ."
+msgstr "Εγκατάσταση στο \"%s\" ."
+
+msgid "Installation binary failed. Retry?"
+msgstr "Η δυαδική εγκατάσταση απέτυχε. Θα δοκιμάσετε πάλι;"
+
+msgid "Installation has been aborted."
+msgstr "Η εγκατάσταση ματαιώθηκε."
+
+msgid "Installation has been confirmed."
+msgstr "Η εγκατάσταση έχει επιβεβαιωθεί."
+
+msgid "Installing \"%s\" ."
+msgstr "Εγκατάσταση του \"%s\" ."
+
+msgid "Installing new version."
+msgstr "Εγκατάσταση νέας έκδοσης."
+
+msgid "Invalid name."
+msgstr "Μη έγκυρο όνομα."
+
+msgid "It improves buffering mode with the gstplayer.\n"
+msgstr "Βελτιώνει τη λειτουργία προφόρτωσης με το gstplayer.\n"
+
+msgid "It improves playing of streams hls/m3u8.\n"
+msgstr "Βελτιώνει την αναπαραγωγή των ροών hls/m3u8.\n"
+
+msgid "It seems that the host \"%s\" has crashed."
+msgstr "Φαίνεται ότι ο host \"%s\" κράσαρε."
+
+msgid "It seems that the host \"%s\" has crashed. Do you want to report this problem?"
+msgstr "Φαίνεται ότι ο host \"%s\" κράσαρε. Θέλετε να αναφέρετε αυτό το πρόβλημα;"
+
+msgid ""
+"It seems that the video player \"%s\" does not work properly.\n"
+"\n"
+"STS: %s\n"
+"ERROR CODE: %r"
+msgstr ""
+"Φαίνεται ότι η αναπαραγωγή βίντεο \"%s\" δεν λειτουργεί σωστά.\n"
+"\n"
+"STS: %s\n"
+"ΚΩΔΙΚΟΣ ΣΦΑΛΜΑΤΟΣ: %r"
+
+msgid "Italiano"
+msgstr "Ιταλικά"
+
+msgid "Item idx[%d] not found in group[%s]."
+msgstr "Ο δείκτης του στοιχείου [%d] δεν βρέθηκε στην ομάδα [%s]."
+
+msgid "Items in group"
+msgstr "Στοιχεία στην ομάδα"
+
+msgid "Items in group \"%s\""
+msgstr "Στοιχεία στην ομάδα \"%s\""
+
+msgid "JSON module not available!"
+msgstr "Η μονάδα JSON δεν είναι διαθέσιμη!"
+
+msgid "Japanese"
+msgstr "Ιαπωνικά"
+
+msgid "Junior"
+msgstr "Νεότερο"
+
+msgid "Language:"
+msgstr "Γλώσσα:"
+
+msgid "Languages"
+msgstr "Γλώσσες"
+
+msgid "Last error"
+msgstr "Τελευταίο σφάλμα"
+
+msgid "Last error: \"%s\""
+msgstr "Τελευταίο σφάλμα: \"%s\""
+
+msgid "Last error: \"People who live where you live aren't allowed to watch this video.. Not because we don't luv ya, but because the owners have some restrictions. The good news, is there are tens of thousands of other videos to choose from.\""
+msgstr "Τελευταίο σφάλμα: \"Τα άτομα που ζουν εκεί που ζείτε δεν επιτρέπεται να παρακολουθήσουν αυτό το βίντεο.. Όχι επειδή δεν σας αγαπάμε, αλλά επειδή οι ιδιοκτήτες έχουν κάποιους περιορισμούς. Τα καλά νέα είναι ότι υπάρχουν δεκάδες χιλιάδες άλλα βίντεο για να διαλέξετε.\""
+
+msgid "Last error: \"Silverlight stream not supported.\""
+msgstr "Τελευταίο σφάλμα: \"Η ροή του Silverlight δεν υποστηρίζεται.\""
+
+msgid "Last error: \"The Mirror is broken.If available you can choose other source.\""
+msgstr "Τελευταίο σφάλμα: \"Ο καθρέφτης είναι σπασμένος. Εάν είναι διαθέσιμη, μπορείτε να επιλέξετε άλλη πηγή.\""
+
+msgid "Last error: %s"
+msgstr "Τελευταίο σφάλμα: %s"
+
+msgid "Latest added"
+msgstr "Τελευταία προσθήκη"
+
+msgid "Latest updates"
+msgstr "Τελευταίες ενημερώσεις"
+
+msgid "Line Spacing"
+msgstr "Διάστιχο"
+
+msgid "Link"
+msgstr "Σύνδεσμος"
+
+msgid "Links are videos and messages, without division into categories"
+msgstr "Οι σύνδεσμοι είναι βίντεο και μηνύματα, χωρίς διαχωρισμό σε κατηγορίες"
+
+msgid "Links to the video files from the file urllist.txt"
+msgstr "Σύνδεσμοι προς τα αρχεία βίντεο από το αρχείο urllist.txt"
+
+msgid "List only channels with subscription"
+msgstr "Λίστα μόνο καναλιών με συνδρομή"
+
+msgid "Live"
+msgstr "Ζωντανά"
+
+msgid "Live Channels"
+msgstr "Ζωντανά κανάλια"
+
+msgid "Live broadcasts from the file urllist.stream"
+msgstr "Ζωντανές μεταδόσεις από το αρχείο urllist.stream"
+
+msgid "Load"
+msgstr "Φόρτωση"
+
+msgid "Load automatically the subtitle from file with the same name"
+msgstr "Αυτόματη φόρτωση του υπότιτλου από το αρχείο με το ίδιο όνομα"
+
+msgid "Loading"
+msgstr "Φόρτωση"
+
+msgid "Loading..."
+msgstr "Φόρτωση..."
+
+msgid "LocalMedia"
+msgstr ""
+
+msgid "Login"
+msgstr "Σύνδεση"
+
+msgid "Login user \"%s\" into %s"
+msgstr "Σύνδεση χρήστη \"%s\" στο %s"
+
+msgid "Login:"
+msgstr "Σύνδεση:"
+
+msgid "MEDIUM"
+msgstr "ΜΕΤΡΙΟ"
+
+msgid "MERGE protocol source"
+msgstr "Προέλευση πρωτοκόλλου MERGE"
+
+msgid "MORE"
+msgstr "ΠΕΡΙΣΣΟΤΕΡΑ"
+
+msgid "Main"
+msgstr "Κύριο"
+
+msgid "Main Event"
+msgstr "Κύριο πρόγραμμα"
+
+msgid "Main developer, architect, coordinator: "
+msgstr "Κύριος προγραμματιστής, αρχιτέκτονας, συντονιστής: "
+
+msgid "Manager status: "
+msgstr "Κατάσταση διαχείρισης: "
+
+msgid "Max items per page"
+msgstr "Μέγιστος αριθμός στοιχείων ανά σελίδα"
+
+msgid "Mid"
+msgstr "Μεσαία"
+
+msgid "Missed the show?"
+msgstr "Χάσατε την εκπομπή;"
+
+msgid "Month"
+msgstr "Μήνας"
+
+msgid "Monthly"
+msgstr "Μηνιαία"
+
+msgid "More"
+msgstr "Περισσότερα"
+
+msgid "More important"
+msgstr "Τα πιο σημαντικά"
+
+msgid "Most Popular"
+msgstr "Δημοφιλέστερα"
+
+msgid "Move group"
+msgstr "Μετακίνηση ομάδας"
+
+msgid "Move item"
+msgstr "Μετακίνηση στοιχείου"
+
+msgid "Movie"
+msgstr "Ταινία"
+
+msgid "Movie \"%s\" has not been found."
+msgstr "Η ταινία \"%s\" δεν βρέθηκε."
+
+msgid "Movie player without buffering mode"
+msgstr "Αναπαραγωγή ταινιών χωρίς λειτουργία προφόρτωσης"
+
+msgid "Movies"
+msgstr "Ταινίες"
+
+msgid "Music"
+msgstr "Μουσική"
+
+msgid "Music-Box"
+msgstr "Μουσικό κουτί"
+
+msgid "Musik"
+msgstr "Μουσική"
+
+msgid "Name cannot be empty."
+msgstr "Το όνομα δεν μπορεί να είναι κενό."
+
+msgid ""
+"Name is not valid.\n"
+"Please remove special characters."
+msgstr ""
+"Μη έγκυρο όνομα.\n"
+"Παρακαλώ αφαιρέστε τους ειδικούς χαρακτήρες."
+
+msgid "Name:"
+msgstr "Όνομα:"
+
+msgid "New dir"
+msgstr "Νέος κατάλογος"
+
+msgid "New folder"
+msgstr "Νέος φάκελος"
+
+msgid "New icons will not be available."
+msgstr "Τα νέα εικονίδια δεν θα είναι διαθέσιμα."
+
+msgid "News"
+msgstr "Ειδήσεις"
+
+msgid "Next page"
+msgstr "Επόμενη σελίδα"
+
+msgid ""
+"No item to display. \n"
+"Press OK to refresh.\n"
+msgstr ""
+"Κανένα στοιχείο προς εμφάνιση.\n"
+"Πατήστε ΟΚ για ανανέωση.\n"
+
+msgid "No steps to execute."
+msgstr "Κανένα βήμα προς εκτέλεση."
+
+msgid "No user scripts."
+msgstr "Δεν υπάρχουν scripts χρήστη."
+
+msgid "No valid links available."
+msgstr "Μη διαθέσιμοι έγκυροι σύνδεσμοι."
+
+msgid "No valid links available. Last error: \"The Mirror is broken. If available you can choose other source.\""
+msgstr "Δεν υπάρχουν διαθέσιμοι έγκυροι σύνδεσμοι. Τελευταίο σφάλμα: \"Ο καθρέφτης είναι σπασμένος. Εάν είναι διαθέσιμο, μπορείτε να επιλέξετε άλλη πηγή.\""
+
+msgid "Now playing"
+msgstr "Αναπαραγωγή τώρα"
+
+msgid "Number of songs fetched at once for the station"
+msgstr "Αριθμός τραγουδιών που λαμβάνονται ταυτόχρονα για το σταθμό"
+
+msgid "Obtaining server list."
+msgstr "Λήψη λίστας διακομιστών."
+
+msgid "Odśwież"
+msgstr "Ανανέωση"
+
+msgid "Offline channels"
+msgstr "Κανάλια εκτός σύνδεσης"
+
+msgid "One link mode"
+msgstr "Λειτουργία μονού συνδέσμου"
+
+msgid "OpenSSL lib is needed by wget and rtmpdump utilities."
+msgstr "Απαιτείται το OpenSSL μέσω των εφαρμογών wget και rtmdump."
+
+msgid "Operation aborted!"
+msgstr "Ματαίωση λειτουργίας!"
+
+msgid "Operation aborted! "
+msgstr "Η λειτουργία ματαιώθηκε! "
+
+msgid "Others"
+msgstr "Άλλα"
+
+msgid "PC"
+msgstr ""
+
+msgid "PENDING"
+msgstr "ΑΝΑΜΟΝΗ"
+
+msgid "PICTURE"
+msgstr "ΕΙΚΟΝΑ"
+
+msgid "Password:"
+msgstr "Κωδικός πρόσβασης:"
+
+msgid "Paste \"%s\""
+msgstr "Επικόλληση \"%s\""
+
+msgid "Path to ytlist.txt, urllist.txt"
+msgstr "Διαδρομή για τα ytlist.txt, urllist.txt"
+
+msgid "Pending"
+msgstr "Σε αναμονή"
+
+msgid "Photos"
+msgstr "Φωτογραφίες"
+
+msgid "Play file"
+msgstr "Αναπαραγωγή αρχείου"
+
+msgid "Play with [%s] player"
+msgstr "Αναπαραγωγή με το πρόγραμμα αναπαραγωγής [%s]"
+
+msgid "PlayPuls"
+msgstr ""
+
+msgid "PlayPuls use a proxy?"
+msgstr "Το PlayPuls χρησιμοποιεί διακομιστή μεσολάβησης;"
+
+msgid "Player > Recorder"
+msgstr "Αναπ/γή > Εγγραφή"
+
+msgid "Playlist"
+msgstr "Λίστα αναπαραγωγής"
+
+msgid "Playlists"
+msgstr "Λίστες αναπαραγωγής"
+
+msgid "Please remember that you use the IPTVPlayer plugin at your own risk."
+msgstr "Παρακαλώ έχετε υπόψιν σας ότι χρησιμοποιείτε το IPTVPlayer με το δικό σας ρίσκο."
+
+msgid "Please remember that you use this plugin at your own risk."
+msgstr "Έχετε υπόψιν σας ότι χρησιμοποιείτε αυτό το πρόσθετο με δικό σας ρίσκο."
+
+msgid "Plugin can be run on one of the following platforms: sh4, mipsel, i686, armv7."
+msgstr "Το πρόσθετο μπορεί να εκτελεστεί σε μία από τις ακόλουθες πλατφόρμες: sh4, mipsel, i686, armv7."
+
+msgid "Pol'skiy"
+msgstr "Πολωνία"
+
+msgid "Poland"
+msgstr "Πολωνία"
+
+msgid "Policy"
+msgstr "Πολιτική"
+
+msgid "Policy2"
+msgstr "Πολιτική2"
+
+msgid "Polish channles"
+msgstr "Πολωνικά κανάλια"
+
+msgid "Popular"
+msgstr "Δημοφιλή"
+
+msgid "Popular Artists"
+msgstr "Δημοφιλείς καλλιτέχνες"
+
+msgid "Português"
+msgstr "Πορτογαλικά"
+
+msgid "Prefered quality"
+msgstr "Προτιμώμενη ποιότητα"
+
+msgid "Preferred quality"
+msgstr "Προτιμώμενη ποιότητα"
+
+msgid "Preferred streaming protocol"
+msgstr "Προτιμώμενο πρωτόκολλο ροής"
+
+msgid "Preferred streaming protocol' + ': "
+msgstr "Προτιμώμενο πρωτόκολλο ροής' + ': "
+
+msgid "Preferred video quality:"
+msgstr "Προτιμώμενη ποιότητα βίντεο:"
+
+msgid "Premium user"
+msgstr "Premium χρήστης"
+
+msgid "Press OK to start"
+msgstr "Πατήστε OK για να ξεκινήσετε"
+
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+msgid "Problem with downloading the server list from [%s]."
+msgstr "Πρόβλημα στη λήψη της λίστας διακομιστών από το [%s]."
+
+msgid "Problem with downloading the server list."
+msgstr "Πρόβλημα στη λήψη της λίστας διακομιστών."
+
+msgid ""
+"Problem with downloading the update packet:\n"
+"[%s]."
+msgstr ""
+"Πρόβλημα στη λήψη του πακέτου ενημέρωσης:\n"
+"[%s]."
+
+msgid ""
+"Problem with extracting the archive. Return code [%d]\n"
+"%s."
+msgstr ""
+"Πρόβλημα στην εξαγωγή του αρχείου. Κωδικός σφάλματος [%d]\n"
+"%s."
+
+msgid ""
+"Problem with installing the new version.\n"
+"Status[%d], outData[%s]"
+msgstr ""
+"Πρόβλημα με την εγκατάσταση της νέας έκδοσης.\n"
+"Κατάσταση [%d], δεδομένα εξόδου [%s]."
+
+msgid "Problem with the directory [%s]."
+msgstr "Πρόβλημα με τον κατάλογο [%s]."
+
+msgid ""
+"Problem with the removal of the previous version.\n"
+"Status[%d], outData[%s]."
+msgstr ""
+"Πρόβλημα με την αφαίρεση της προηγούμενης έκδοσης.\n"
+"Κατάσταση [%d], δεδομένα εξόδου [%s]."
+
+msgid "Problem with user script execution [%s]."
+msgstr "Πρόβλημα στην εκτέλεση του script χρήστη [%s]."
+
+msgid "Profile"
+msgstr "Προφίλ"
+
+msgid "Promote item"
+msgstr "Προώθηση στοιχείου"
+
+msgid "Promoted channels"
+msgstr "Κανάλια που προωθούνται"
+
+msgid "Promoted games"
+msgstr "Παιχνίδια που προωθούνται"
+
+msgid "Protocol: "
+msgstr "Πρωτόκολλο: "
+
+msgid "Proxy server url"
+msgstr "URL διακομιστή μεσολάβησης"
+
+msgid "Quality"
+msgstr "Ποιότητα"
+
+msgid "Random"
+msgstr "Τυχαία"
+
+msgid "Ranking"
+msgstr "Κατάταξη"
+
+msgid "Rating"
+msgstr "Αξιολόγηση"
+
+msgid "Raw"
+msgstr "Ακατέργαστο"
+
+msgid "Recent"
+msgstr "Πρόσφατα"
+
+msgid "Recorder > Player"
+msgstr "Εγγραφή > Αναπ/γή"
+
+msgid "Records path"
+msgstr "Διαδρομή εγγραφών"
+
+msgid "Refresh"
+msgstr "Ανανέωση"
+
+msgid "Refreshing"
+msgstr "Ανανέωση"
+
+msgid "Regular"
+msgstr "Κανονικό"
+
+msgid "Releases"
+msgstr "Κυκλοφορίες"
+
+msgid "Relevance"
+msgstr "Συνάφεια"
+
+msgid "Remember last watched position"
+msgstr "Απομνημόνευση της τελευταίας θέσης παρακολούθησης"
+
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+msgid "Remove file"
+msgstr "Αφαίρεση αρχείου"
+
+msgid "Remove group"
+msgstr "Αφαίρεση ομάδας"
+
+msgid "Remove item"
+msgstr "Αφαίρεση στοιχείου"
+
+msgid "Removing the old version."
+msgstr "Αφαίρεση παλιάς έκδοσης."
+
+msgid "Removing unnecessary files."
+msgstr "Αφαίρεση περιττών αρχείων."
+
+msgid "Rename"
+msgstr "Μετονομασία"
+
+msgid "Request token from \"%s\""
+msgstr "Αίτηση token από το \"%s\""
+
+msgid "Request token from %s"
+msgstr "Αίτηση token από το %s"
+
+msgid ""
+"Restart GUI failed. \n"
+"Please restart STB manually."
+msgstr ""
+"Η επανεκκίνηση της διεπαφής χρήστη απέτυχε.\n"
+"Παρακαλώ επανεκκινήστε τον δέκτη χειροκίνητα."
+
+msgid "Russia"
+msgstr "Ρωσία"
+
+msgid "SEARCH"
+msgstr "ΑΝΑΖΗΤΗΣΗ"
+
+msgid "STARTED"
+msgstr "ΞΕΚΙΝΗΣΕ"
+
+msgid "STOPPED"
+msgstr "ΔΙΑΚΟΠΗΚΕ"
+
+msgid "Save changes?"
+msgstr "Να γίνει αποθήκευση των αλλαγών;"
+
+msgid "Search"
+msgstr "Αναζήτηση"
+
+msgid "Search for movie \"%s\""
+msgstr "Αναζήτηση ταινίας \"%s\""
+
+msgid "Search for subitile for \"%s\""
+msgstr "Αναζήτηση υποτίτλου για \"%s\""
+
+msgid "Search for subitile for %s"
+msgstr "Αναζήτηση υποτίτλου για %s"
+
+msgid "Search history"
+msgstr "Ιστορικό αναζήτησης"
+
+msgid "Search results"
+msgstr "Αποτελέσματα αναζήτησης"
+
+msgid "Search type"
+msgstr "Τύπος αναζήτησης"
+
+msgid "Search youtube materials "
+msgstr "Αναζήτηση υλικού youtube "
+
+msgid "Second movie player in buffering mode"
+msgstr "Δεύτερη αναπαραγωγή ταινιών σε λειτουργία προφόρτωσης"
+
+msgid "Second movie player without buffering mode"
+msgstr "Δεύτερη αναπαραγωγή ταινιών χωρίς λειτουργία προφόρτωσης"
+
+msgid "Select"
+msgstr "Επιλογή"
+
+msgid "Select %s"
+msgstr "Επιλογή %s"
+
+msgid "Select action"
+msgstr "Επιλογή ενέργειας"
+
+msgid "Select audio track"
+msgstr "Επιλογή κομματιού ήχου"
+
+msgid "Select favourite group"
+msgstr "Επιλογή ομάδας αγαπημένων"
+
+msgid "Select language"
+msgstr "Επιλογή γλώσσας"
+
+msgid "Select link"
+msgstr "Επιλογή συνδέσμου"
+
+msgid "Select movie"
+msgstr "Επιλογή ταινίας"
+
+msgid "Select movie player"
+msgstr "Επιλογή αναπαραγωγής ταινιών"
+
+msgid "Select option"
+msgstr "Δώστε μια επιλογή"
+
+msgid "Select service"
+msgstr "Επιλογή υπηρεσίας"
+
+msgid "Select subtitles file"
+msgstr "Επιλογή αρχείου υποτίτλων"
+
+msgid "Select subtitles to download"
+msgstr "Επιλογή υποτίτλων προς λήψη"
+
+msgid "Select subtitles track"
+msgstr "Επιλογή κομματιού υποτίτλων"
+
+msgid "Select the directory"
+msgstr "Επιλογή του καταλόγου"
+
+msgid "Select update server"
+msgstr "Επιλογή διακομιστή ενημέρωσης"
+
+msgid "Select video option"
+msgstr "Επιλογή λειτουργίας βίντεο"
+
+msgid "Selected version [%s]."
+msgstr "Επιλεγμένη έκδοση [%s]."
+
+msgid "Seriale"
+msgstr "Σειρά"
+
+msgid "Series"
+msgstr "Σειρά"
+
+msgid "Service [%s] has no additional settings."
+msgstr "Η υπηρεσία [%s] δεν διαθέτει πρόσθετες ρυθμίσεις."
+
+msgid "Set active movie player"
+msgstr "Ρύθμιση ενεργής αναπαραγωγής ταινιών"
+
+msgid "Show all channels"
+msgstr "Εμφάνιση όλων των καναλιών"
+
+msgid "Show hiddens catalogs"
+msgstr "Εμφάνιση κρυφών καταλόγων"
+
+msgid "Show hiddens files"
+msgstr "Εμφάνιση κρυφών αρχείων"
+
+msgid "Show update icon in service selection menu"
+msgstr "Εμφάνιση εικονιδίου ενημέρωσης στο μενού επιλογής υπηρεσιών"
+
+msgid "Shows"
+msgstr "Εκπομπές"
+
+msgid "Silverlight stream not supported."
+msgstr "Η ροή Silverlight δεν υποστηρίζεται."
+
+msgid "Simple subtitles downloader"
+msgstr "Απλό πρόγραμμα λήψης υποτίτλων"
+
+msgid "Sin in to"
+msgstr "Εγγραφή σε"
+
+msgid "Skipping IPTVPlayer serup may cause problems.Are you sure to skip IPTVPlayer setup?"
+msgstr "Η παράλειψη της ρύθμισης του IPTVPlayer μπορεί να προκαλέσει προβλήματα. Είστε βέβαιοι ότι θα παραλείψετε τη ρύθμιση IPTVPlayer;"
+
+msgid ""
+"Skipping IPTVPlayer setup may cause problems.\n"
+"Are you sure to skip IPTVPlayer setup?"
+msgstr ""
+"Η παράλειψη της ρύθμισης του IPTVPlayer μπορεί να προκαλέσει προβλήματα.\n"
+"Είστε βέβαιοι ότι θα παραλείψετε τη ρύθμιση IPTVPlayer;"
+
+msgid "SmackDown"
+msgstr ""
+
+msgid "Some changes will be applied only after plugin update."
+msgstr "Ορισμένες αλλαγές θα εφαρμοστούν μόνο μετά την ενημέρωση του πρόσθετου."
+
+msgid "Songs"
+msgstr "Τραγούδια"
+
+msgid "Sorry"
+msgstr "Συγνώμη"
+
+msgid "Sort by:"
+msgstr "Ταξινόμηση κατά:"
+
+msgid "Sort search result by"
+msgstr "Ταξινόμηση αποτελεσμάτων κατά"
+
+msgid "Sort the list:"
+msgstr "Ταξινόμηση της λίστας:"
+
+msgid "Sorted channels A-Z [live]"
+msgstr "Ταξινομημένα κανάλια Α-Ω (ζωντανά)"
+
+msgid "Sorted most viewed channels general [live]"
+msgstr "Ταξινομημένα κανάλια με τις περισσότερες προβολές γενικά [ζωντανά]"
+
+msgid "Sorted most viewed channels now [live]"
+msgstr "Ταξινομημένα κανάλια με τις περισσότερες προβολές τώρα [ζωντανά]"
+
+msgid "Spanish"
+msgstr "Ισπανικά"
+
+msgid "Start"
+msgstr "Έναρξη"
+
+msgid "Stations"
+msgstr "Σταθμοί"
+
+msgid "Status object [%r]"
+msgstr "Κατάσταση αντικειμένου [%r]"
+
+msgid "Step [%s] cannot be aborted. Please wait."
+msgstr "Το βήμα [%s] δεν μπορεί να ματαιωθεί. Παρακαλώ περιμένετε."
+
+msgid "Stereo downmix mode for software decoder"
+msgstr "Στερεοφωνική λειτουργία downmix για αποκωδικοποιητή λογισμικού"
+
+msgid "Stop"
+msgstr "Διακοπή"
+
+msgid "Stop downloading"
+msgstr "Διακοπή λήψης"
+
+msgid "Stop playing?"
+msgstr "Διακοπή της αναπαραγωγής;"
+
+msgid "StreamLiveTo.tv"
+msgstr ""
+
+msgid "Subtitle background"
+msgstr "Φόντο υποτίτλων"
+
+msgid "Subtitle border color"
+msgstr "Χρώμα περιγράμματος υποτίτλων"
+
+msgid "Subtitle border enabled"
+msgstr "Περίγραμμα υποτίτλων ενεργό"
+
+msgid "Subtitle border width"
+msgstr "Πλάτος περιγράμματος υποτίτλων"
+
+msgid "Subtitle box height"
+msgstr "Ύψος πλαισίου υποτίτλων"
+
+msgid "Subtitle box position"
+msgstr "Θέση πλαισίου υποτίτλων"
+
+msgid "Subtitle font"
+msgstr "Γραμματοσειρά υποτίτλων"
+
+msgid "Subtitle font color"
+msgstr "Χρώμα γραμματοσειράς υποτίτλων"
+
+msgid "Subtitle font size"
+msgstr "Μέγεθος γραμματοσειράς υποτίτλων"
+
+msgid "Subtitle line height"
+msgstr "Ύψος γραμμής υποτίτλων"
+
+msgid "Subtitle line wrapping"
+msgstr "Αναδίπλωση γραμμής υποτίτλων"
+
+msgid "Subtitle shadow X offset"
+msgstr "Μετατόπιση σκιάς υποτίτλων Χ"
+
+msgid "Subtitle shadow Y offset"
+msgstr "Μετατόπιση σκιάς υποτίτλων Y"
+
+msgid "Subtitle shadow color"
+msgstr "Χρώμα σκιάς υποτίτλων"
+
+msgid "Subtitle shadow enabled"
+msgstr "Σκιά υποτίτλων ενεργή"
+
+msgid "Subtitle vertical alignment"
+msgstr "Κάθετη στοίχιση υποτίτλων"
+
+msgid "Subtitles"
+msgstr "Υπότιτλοι"
+
+msgid "Subtitles downloaded successfully. [%s]"
+msgstr "Οι υπότιτλοι λήφθηκαν με επιτυχία. [%s]"
+
+msgid "Subtitles downloaded successfully. [%s], conversion to UTF-8."
+msgstr "Οι υπότιτλοι λήφθηκαν με επιτυχία. [%s], μετατροπή σε UTF-8."
+
+msgid "Subtitles downloader"
+msgstr "Πρόγραμμα λήψης υποτίτλων"
+
+msgid "Subtitles for: %s"
+msgstr "Υπότιτλοι για: %s"
+
+msgid "Subtitles not found."
+msgstr "Δεν βρέθηκαν υπότιτλοι."
+
+msgid "Subtitles provider: %s"
+msgstr "Πάροχος υποτίτλων: %s"
+
+msgid "Such as downloading and installation additional binaries"
+msgstr "Όπως λήψη και εγκατάσταση πρόσθετων δυαδικών αρχείων"
+
+msgid "Synchronize"
+msgstr "Συγχρονισμός"
+
+msgid "TV Shows"
+msgstr "Τηλεοπτικές εκπομπές"
+
+msgid "TV series"
+msgstr "Τηλεοπτικές σειρές"
+
+msgid "TV shows"
+msgstr "Τηλεοπτικές εκπομπές"
+
+msgid "Teletext decoder"
+msgstr "Αποκωδικοποιητής Teletext"
+
+msgid "Testers: "
+msgstr "Δοκιμαστές: "
+
+msgid "Text files ytlist and urllist are in:"
+msgstr "Τα αρχεία κειμένου ytlist και urllist βρίσκονται στο:"
+
+msgid "The \"%s\" utility is used by IPTVPlayer."
+msgstr "Η εφαρμογή \"%s\" χρησιμοποιείται από το IPTVPlayer."
+
+msgid "The \"%s\" utility is used by the IPTVPlayer as external movie player based on the ffmpeg and libeplayer."
+msgstr "Η εφαρμογή \"%s\" χρησιμοποιείται από το IPTVPlayer ως εξωτερική αναπαραγωγή ταινιών βασισμένη σε ffmpeg και libeplayer."
+
+msgid "The \"%s\" utility is used by the IPTVPlayer as external movie player."
+msgstr "Η εφαρμογή \"%s\" χρησιμοποιείται από το IPTVPlayer ως εξωτερική αναπαραγωγή ταινιών."
+
+msgid "The \"%s\" utility is used by the IPTVPlayer to buffering and downloading [%s] links."
+msgstr "Η εφαρμογή \"%s\" χρησιμοποιείται από το IPTVPlayer για την προφόρτωση και τη λήψη των [%s] συνδέσμων."
+
+msgid "The \"%s\" utility is used by the IPTVPlayer to determine the encoding of the text."
+msgstr "Η εφαρμογή \"%s\" χρησιμοποιείται από το IPTVPlayer για τον προσδιορισμό της κωδικοποίησης του κειμένου."
+
+msgid "The current host crashed"
+msgstr "Ο τρέχων host κράσαρε"
+
+msgid "The default video quality:"
+msgstr "Η προεπιλεγμένη ποιότητα βίντεο:"
+
+msgid "The preferred protocol:"
+msgstr "Το προτιμώμενο πρωτόκολλο:"
+
+msgid "The problem with creating a directory [%s]."
+msgstr "Το πρόβλημα με τη δημιουργία καταλόγου [%s]."
+
+msgid "The problem with obtaining the gateway proxy!"
+msgstr "Το πρόβλημα με την απόκτηση του διακομιστή μεσολάβησης πύλης!"
+
+msgid "The problem with the logged-in user \"%s. Check your login details in the host configuration.\""
+msgstr "Το πρόβλημα με τον συνδεδεμένο χρήστη \"%s. Ελέγξτε τα στοιχεία σύνδεσής σας στις ρυθμίσεις του host.\""
+
+msgid "The problem with the user's logon \"%s\". Check your login details in the host configuration."
+msgstr "Το πρόβλημα με τη σύνδεση του χρήστη \"%s\". Ελέγξτε τα στοιχεία σύνδεσής σας στις ρυθμίσεις του host."
+
+msgid "The same item already exists in this group."
+msgstr "Το ίδιο στοιχείο υπάρχει ήδη σε αυτή την ομάδα."
+
+msgid "The user Last.fm"
+msgstr "Ο χρήστης Last.fm"
+
+msgid ""
+"There are no active premium account.\n"
+"Using a limited version that may not work properly with congested links."
+msgstr ""
+"Δεν υπάρχει ενεργός λογαριασμός premium.\n"
+"Χρήση περιορισμένης έκδοσης που ενδέχεται να μην λειτουργεί σωστά με συμφορημένους συνδέσμους."
+
+msgid ""
+"There is a new version available do you want to update? \n"
+"Your version [%s], latest version on server [%s]."
+msgstr ""
+"Υπάρχει μια νέα διαθέσιμη έκδοση, θέλετε να ενημερώσετε;\n"
+"Η έκδοσή σας [%s], η πιο πρόσφατη έκδοση στον διακομιστή [%s]."
+
+msgid "There are no other favourite groups"
+msgstr "Δεν υπάρχουν άλλες αγαπημένες ομάδες"
+
+msgid "There is no free space on the drive [%s]."
+msgstr "Δεν υπάρχει ελεύθερος χώρος στο δίσκο [%s]."
+
+msgid ""
+"There is no space in the directory [%s]\n"
+" Available[%s], required [%s]."
+msgstr ""
+"Δεν υπάρχει χώρος τον κατάλογο [%s]\n"
+"Διαθέσιμα [%s], απαιτούνται [%s]."
+
+msgid "There is no update for the current configuration."
+msgstr "Δεν υπάρχει ενημέρωση για τις τρέχουσες ρυθμίσεις."
+
+msgid "There was an error Download."
+msgstr "Παρουσιάστηκε σφάλμα λήψης."
+
+msgid ""
+"There was an error Download. \n"
+"Status[%s], tmpBuffSize[%r], canRunMoviePlayer[%r]"
+msgstr ""
+"Παρουσιάστηκε σφάλμα λήψης.\n"
+"Κατάσταση[%s], tmpBuffSize[%r], canRunMoviePlayer[%r]"
+
+msgid "There was an error downloading."
+msgstr "Παρουσιάστηκε σφάλμα κατά τη λήψη."
+
+msgid "This site requires login. Please complete host configuration data."
+msgstr "Αυτός ο ιστότοπος απαιτεί σύνδεση. Συμπληρώστε τα δεδομένα ρυθμίσεων του host."
+
+msgid "Today, too many people are watching a movie with"
+msgstr "Σήμερα, πάρα πολλοί άνθρωποι παρακολουθούν μια ταινία με"
+
+msgid "Top"
+msgstr "Κορυφαία"
+
+msgid "Topics"
+msgstr "Θέματα"
+
+msgid "Total Divas"
+msgstr "Σύνολο ντίβας"
+
+msgid "Try again for some time"
+msgstr "Δοκιμάστε ξανά για κάποιο χρονικό διάστημα"
+
+msgid "Turkish"
+msgstr "Τουρκικά"
+
+msgid "Turn off buffering for http://prognoza.pogody.tv/"
+msgstr "Απενεργοποίηση προφόρτωσης για http://prognoza.pogody.tv/"
+
+msgid "Type: "
+msgstr "Τύπος: "
+
+msgid "Türk"
+msgstr "Τουρκικά"
+
+msgid "UNKNOWN"
+msgstr "ΑΓΝΩΣΤΟ"
+
+msgid "Ukraine"
+msgstr "Ουκρανία"
+
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+msgid "Unknown protocol %s"
+msgstr "Άγνωστο πρωτόκολλο %s"
+
+msgid "Unknown protocol [%s]"
+msgstr "Άγνωστο πρωτόκολλο [%s]"
+
+msgid "Unpacking the archive completed successfully."
+msgstr "Η αποσυσκευασία του αρχείου ολοκληρώθηκε με επιτυχία."
+
+msgid "Update completed successfully. For the moment, the system will reboot."
+msgstr "Η ενημέρωση ολοκληρώθηκε με επιτυχία. Προς το παρόν, το σύστημα θα επανεκκινήσει."
+
+msgid ""
+"Update failed.\n"
+"Check the status by selecting interesting and pressing OK."
+msgstr ""
+"Η ενημέρωση απέτυχε.\n"
+"Ελέγξτε την κατάσταση επιλέγοντας ενδιαφέρον και πατώντας OK."
+
+msgid "Update failed. Check the status by selectiong interesting and pressing ok."
+msgstr "Η ενημέρωση απέτυχε. Ελέγξτε την κατάσταση επιλέγοντας ενδιαφέρον και πατώντας ok."
+
+msgid "Update not available."
+msgstr "Η ενημέρωση δεν είναι διαθέσιμη."
+
+msgid "Update packet was downloaded successfully."
+msgstr "Η λήψη του πακέτου ενημέρωσης έγινε με επιτυχία."
+
+msgid "Update server not selected."
+msgstr "Δεν έχει επιλεγεί διακομιστής ενημέρωσης."
+
+msgid "Upload date"
+msgstr "Ημερομηνία μεταφόρτωσης"
+
+msgid "Urllists player"
+msgstr "Αναπαραγωγή Urllists"
+
+msgid "Use German proxy for link request"
+msgstr "Χρήση γερμανικού διακομιστή μεσολάβησης για αίτημα σύνδεσης"
+
+msgid "Use Polish proxy for http://prognoza.pogody.tv/"
+msgstr "Χρήση πολωνικού διακομιστή μεσολάβησης για το http://prognoza.pogody.tv/"
+
+msgid "Use a proxy gateway"
+msgstr "Χρήση πύλης διακομιστή μεσολάβησης"
+
+msgid "Use default video quality:"
+msgstr "Χρήση προεπιλεγμένης ποιότητας βίντεο:"
+
+msgid "Use defauult qality:"
+msgstr "Χρήση προεπιλεγμένης ποιότητας:"
+
+msgid "Use ru proxy server:"
+msgstr "Χρήση διακομιστή μεσολάβησης ru:"
+
+msgid "User Last.fm"
+msgstr "Χρήστης Last.fm"
+
+msgid "User [%s] logon failure."
+msgstr "Αποτυχία σύνδεσης χρήστη [%s]."
+
+msgid "User files"
+msgstr "Αρχεία χρήστη"
+
+msgid "User links"
+msgstr "Σύνδεσμοι χρήστη"
+
+msgid "User links stored in the ytlist.txt file."
+msgstr "Οι σύνδεσμοι χρήστη αποθηκεύτηκαν στο αρχείο ytlist.txt."
+
+msgid "User-Agent"
+msgstr "Πράκτορας χρήστη"
+
+msgid "Username:"
+msgstr "Όνομα χρήστη:"
+
+msgid "Uses the default video quality:"
+msgstr "Χρησιμοποιεί την προεπιλεγμένη ποιότητα βίντεο:"
+
+msgid ""
+"Utility \"%s\" has not been detected. \n"
+"Do you want to install it?"
+msgstr ""
+"Η εφαρμογή \"%s\" δεν έχει εντοπιστεί. \n"
+"Θέλετε να την εγκαταστήσετε;"
+
+msgid ""
+"Utility \"%s\" has not been detected. \n"
+"What do you want to do?"
+msgstr ""
+"Η εφαρμογή \"%s\" έχει εντοπιστεί. \n"
+"Τι θέλετε να κάνετε;"
+
+msgid ""
+"Utility \"%s\" is deprecated. \n"
+"Do you want to install new one?"
+msgstr ""
+"Η εφαρμογή \"%s\" είναι παρωχημένη. \n"
+"Θέλετε να εγκαταστήσετε μια νέα;"
+
+msgid ""
+"Utility \"%s\" is deprecated. \n"
+"What do you want to do?"
+msgstr ""
+"Η εφαρμογή \"%s\" είναι παρωχημένη. \n"
+"Τι θέλετε να κάνετε;"
+
+msgid "VIDEO"
+msgstr "ΒΙΝΤΕΟ"
+
+msgid "Version"
+msgstr "Έκδοση"
+
+msgid ""
+"Version [%s] is ready for installation. After installation, restart of the system will be done.\n"
+"Do you want to continue?"
+msgstr ""
+"Η έκδοση [%s] είναι έτοιμη για εγκατάσταση. Μετά την εγκατάσταση, θα γίνει επανεκκίνηση του συστήματος.\n"
+"Θέλετε να συνεχίσετε;"
+
+msgid "Video"
+msgstr "Βίντεο"
+
+msgid "Video buffer size [MB]"
+msgstr "Μέγεθος προφόρτωσης βίντεο [MB]"
+
+msgid "Video format:"
+msgstr "Μορφή βίντεο:"
+
+msgid "Video options"
+msgstr "Επιλογές βίντεο"
+
+msgid "Videos"
+msgstr "Βίντεο"
+
+msgid "View count"
+msgstr "Αριθμός προβολών"
+
+msgid "WWE Main Event"
+msgstr "Κύριο πρόγραμμα WWE"
+
+msgid "Watch video materials from IPTV services"
+msgstr "Παρακολούθηση βίντεο από υπηρεσίες IPTV"
+
+msgid "Web streams player"
+msgstr "Αναπαραγωγή ροών Ιστού"
+
+msgid "Webpages: "
+msgstr "Ιστοσελίδες: "
+
+msgid "Week"
+msgstr "Εβδομάδα"
+
+msgid "Weekly"
+msgstr "Εβδομαδιαία"
+
+msgid "Writer"
+msgstr "Συγγραφέας"
+
+msgid "Wrong indexes."
+msgstr "Λάθος δείκτες."
+
+msgid ""
+"Wrong version. \n"
+" downloaded version [%s] is different from the requested [%s]."
+msgstr ""
+"Λάθος έκδοση.\n"
+" η κατεβασμένη έκδοση [%s] είναι διαφορετική από τη ζητούμενη [%s]."
+
+msgid "You can use Russian proxy server as a workaround."
+msgstr "Μπορείτε να χρησιμοποιήσετε ρωσικό διακομιστή μεσολάβησης ως λύση."
+
+msgid "You do not have a premium account. Starting a sponsored broadcast."
+msgstr "Δεν έχετε λογαριασμό premium. Έναρξη χορηγούμενης μετάδοσης."
+
+msgid "You do not have a premium account.Starting a sponsored broadcast."
+msgstr "Δεν έχετε λογαριασμό premium. Έναρξη χορηγούμενης μετάδοσης."
+
+msgid "You need to enter email and password in configuration."
+msgstr "Πρέπει να εισάγετε email και κωδικό πρόσβασης στις ρυθμίσεις."
+
+msgid "You probably have not access to this page due to geolocation restriction."
+msgstr "Πιθανότατα δεν έχετε πρόσβαση σε αυτήν τη σελίδα λόγω περιορισμού γεωγραφικής θέσης."
+
+msgid "Your OpenSSL version is [%s]"
+msgstr "Η έκδοση OpenSSL είναι [%s]"
+
+msgid "Your platform is [%s]"
+msgstr "Η πλατφόρμα σας είναι [%s]"
+
+msgid "Your search entry"
+msgstr "Όροι αναζήτησης"
+
+msgid "Youtube player"
+msgstr "Αναπαραγωγή Youtube"
+
+msgid "Youtubes player"
+msgstr "Αναπαραγωγή Youtubes"
+
+msgid "[%s] - configuration"
+msgstr "[%s] - ρυθμίσεις"
+
+msgid "[%s] will be used by IPTVPlayer."
+msgstr "Το [%s] θα χρησιμοποιηθεί από το IPTVPlayer."
+
+msgid "[%s] with buffering"
+msgstr "[%s] με προφόρτωση"
+
+msgid "[%s] without buffering"
+msgstr "[%s] χωρίς προφόρτωση"
+
+msgid "[For download only] "
+msgstr "[Μόνο για λήψη] "
+
+msgid "[group]"
+msgstr "[ομάδα]"
+
+msgid "active"
+msgstr "ενεργό"
+
+msgid "alltube.tv"
+msgstr ""
+
+msgid "aqua"
+msgstr "θαλασσί"
+
+msgid "ascending"
+msgstr "αύξουσα"
+
+msgid "assessment"
+msgstr "εκτίμηση"
+
+msgid "average"
+msgstr "μέσος όρος"
+
+msgid "back_pressed prev sel index %s"
+msgstr ""
+
+msgid "based on IP"
+msgstr "βασισμένο στην IP"
+
+msgid "bottom"
+msgstr "κάτω"
+
+msgid "buffer-duration"
+msgstr "διάρκεια προφόρτωσης"
+
+msgid "buffer-size"
+msgstr "μέγεθος προφόρτωσης"
+
+msgid "center"
+msgstr "κέντρο"
+
+msgid "channel"
+msgstr "κανάλι"
+
+msgid "console"
+msgstr "κονσόλα"
+
+msgid "cover"
+msgstr "κάλυμμα"
+
+msgid "data"
+msgstr "δεδομένα"
+
+msgid "date added"
+msgstr "ημερομηνία προσθήκης"
+
+msgid "date-add"
+msgstr "ημερομηνία-προσθήκη"
+
+msgid "default"
+msgstr "προεπιλογή"
+
+msgid "descending"
+msgstr "φθίνουσα"
+
+msgid "deutsch"
+msgstr "γερμανικά"
+
+msgid "direct link"
+msgstr "άμεσος σύνδεσμος"
+
+msgid "download-buffer-path"
+msgstr "διαδρομή προφόρτωσης-λήψης"
+
+msgid "downmix"
+msgstr ""
+
+msgid "english"
+msgstr "αγγλικά"
+
+msgid "espanol"
+msgstr "ισπανικά"
+
+msgid "favourites"
+msgstr "αγαπημένα"
+
+msgid "favourtes"
+msgstr "αγαπημένα"
+
+msgid "format"
+msgstr "μορφή"
+
+msgid "free premium player."
+msgstr "δωρεάν premium αναπαραγωγή."
+
+msgid "fuchsia"
+msgstr "φούξια"
+
+msgid "good"
+msgstr "καλό"
+
+msgid "gray"
+msgstr "γκρι"
+
+msgid "group"
+msgstr "ομάδα"
+
+msgid "hd"
+msgstr ""
+
+msgid "headertext"
+msgstr "κείμενο κεφαλίδας"
+
+msgid "high"
+msgstr "υψηλό"
+
+msgid "http://www.ex.ua/"
+msgstr ""
+
+msgid "i686"
+msgstr ""
+
+msgid "large"
+msgstr "μεγάλο"
+
+msgid "leave movie player..."
+msgstr "αφήστε την αναπαραγωγή ταινιών..."
+
+msgid "lector hd free "
+msgstr "λέκτορ hd ελεύθερο "
+
+msgid "lector normal free "
+msgstr "λέκτορ κανονικό ελεύθερο "
+
+msgid "lime"
+msgstr "λεμονί"
+
+msgid "live"
+msgstr "ζωντανά"
+
+msgid "live transfers"
+msgstr "ζωντανές μεταφορές"
+
+msgid "login"
+msgstr "σύνδεση"
+
+msgid "low"
+msgstr "χαμηλή"
+
+msgid "maroon"
+msgstr "βαθυκόκκινο"
+
+msgid "medium"
+msgstr "μέτριο"
+
+msgid "mipsel"
+msgstr ""
+
+msgid "mobile"
+msgstr "κινητό"
+
+msgid "movie"
+msgstr "ταινία"
+
+msgid "movie4k.to"
+msgstr ""
+
+msgid "name"
+msgstr "όνομα"
+
+msgid "nasze-kino.eu"
+msgstr ""
+
+msgid "nocnyseans.pl"
+msgstr ""
+
+msgid "number of views"
+msgstr "αριθμός προβολών"
+
+msgid "olive"
+msgstr "λαδί"
+
+msgid "passthrough"
+msgstr "διέλευση"
+
+msgid "picture link"
+msgstr "σύνδεσμος εικόνας"
+
+msgid "playerlogo"
+msgstr ""
+
+msgid "playlist"
+msgstr "λίστα αναπαραγωγής"
+
+msgid "polski"
+msgstr "πολωνικά"
+
+msgid "precompiled"
+msgstr "προσυντεθειμένο"
+
+msgid "purple"
+msgstr "μοβ"
+
+msgid "quality"
+msgstr "ποιότητα"
+
+msgid "recommended"
+msgstr "προτείνεται"
+
+msgid "release date"
+msgstr "ημερομηνία κυκλοφορίας"
+
+msgid "ring-buffer-max-size"
+msgstr "μέγιστο μέγεθος κυκλικής προφόρτωσης"
+
+msgid "rootfs"
+msgstr ""
+
+msgid "second"
+msgstr "δευτερόλεπτο"
+
+msgid "seconds"
+msgstr "δευτερόλεπτα"
+
+msgid "self.getCurrentDirectory()"
+msgstr ""
+
+msgid "sequencer"
+msgstr "διαδοχικό"
+
+msgid "sh4"
+msgstr ""
+
+msgid "silver"
+msgstr "ασημί"
+
+msgid "small"
+msgstr "μικρή"
+
+msgid "standard"
+msgstr "στάνταρ"
+
+msgid "statustext"
+msgstr ""
+
+msgid "teal"
+msgstr "γαλαζοπράσινο"
+
+msgid "the best"
+msgstr "καλύτερη"
+
+msgid "the name"
+msgstr "το όνομα"
+
+msgid "the worst"
+msgstr "χείριστη"
+
+msgid "top"
+msgstr "κορυφαίο"
+
+msgid "unknown"
+msgstr "άγνωστο"
+
+msgid "updated"
+msgstr "ενημερωμένο"
+
+msgid "very high"
+msgstr "πολύ υψηλή"
+
+msgid "video"
+msgstr "βίντεο"
+
+msgid "web-live.tv login:"
+msgstr "Σύνδεση web-live.tv:"
+
+msgid "web-live.tv password:"
+msgstr "Κωδικός web-live.tv:"
+
+msgid "web-live.tv premium user?"
+msgstr "Χρήστης web-live.tv premium;"
+
+msgid "white"
+msgstr "λευκό"
+
+msgid "worst"
+msgstr "χειρότερο"
+
+msgid "yellow"
+msgstr "κίτρινο"
+
+msgid "Success."
+msgstr "Επιτυχία."
+
+msgid "Movie categories"
+msgstr "Κατηγορίες ταινιών"
+
+msgid "http://hdkinomir.com/"
+msgstr ""
+
+msgid "----------------- External exteplayer3 options -----------------"
+msgstr "----------------- Επιλογές εξωτερικού exteplayer3 -----------------"
+
+msgid "XXX"
+msgstr ""
+
+msgid "--- Featured videos ---"
+msgstr "--- Προτεινόμενα βίντεο ---"
+
+msgid "--- Hits ---"
+msgstr "--- Επιτυχίες ---"
+
+msgid "--- Hot ---"
+msgstr "--- Καυτά ---"
+
+msgid "--- Best Videos ---"
+msgstr "--- Καλύτερα βίντεο ---"
+
+msgid "--- New Videos ---"
+msgstr "--- Νέα βίντεο ---"
+
+msgid "--- Tags alfabetical ---"
+msgstr "--- Ετικέτες αλφαβητικά ---"
+
+msgid "--- Pornstars ---"
+msgstr "--- Πορνοστάρ ---"
+
+msgid "--- New ---"
+msgstr "--- Νέα ---"
+
+msgid "--- Top Rated ---"
+msgstr "--- Καλύτερη βαθμολογία ---"
+
+msgid "--- Most Viewedo ---"
+msgstr "--- Περισσότερες προβολές ---"
+
+msgid "--- Most Favorited ---"
+msgstr "--- Πλέον αγαπημένα ---"
+
+msgid "--- Most Discussed ---"
+msgstr "--- Πλέον συζητήσιμα ---"
+
+msgid "--- Newest ---"
+msgstr "--- Νεότερα ---"
+
+msgid "--- Most Viewed ---"
+msgstr "--- Περισσότερες προβολές ---"
+
+msgid "--- Most Favored ---"
+msgstr "--- Πλέον αγαπημένα ---"
+
+msgid "--- Popular ---"
+msgstr "--- Δημοφιλή ---"
+
+msgid "--- On Air ---"
+msgstr "--- Στον αέρα ---"
+
+msgid "--- Most Recent ---"
+msgstr "--- Πιο πρόσφατα ---"
+
+msgid "--- Longest ---"
+msgstr "--- Μεγαλύτερα ---"
+
+msgid "--- Most viewed ---"
+msgstr "--- Περισσότερες προβολές ---"
+
+msgid "--- Lastest ---"
+msgstr "--- Τελευταία ---"
+
+msgid "--- Highest Rated ---"
+msgstr "--- Υψηλότερη βαθμολογία ---"
+
+msgid "--- Most Popular ---"
+msgstr "--- Δημοφιλέστερα ---"
+
+msgid " - Local version"
+msgstr " - Τοπική έκδοση"
+
+msgid "--- Channels ---"
+msgstr "--- Κανάλια ---"
+
+msgid "---Search History"
+msgstr "---Ιστορικό αναζήτησης"
+
+msgid "Search History"
+msgstr "Ιστορικό αναζήτησης"
+
+msgid "---Search"
+msgstr "---Αναζήτηση"
+
+msgid "Search movies"
+msgstr "Αναζήτηση ταινιών"
+
+msgid "Search "
+msgstr "Αναζήτηση "
+
+msgid "--- Cams ---"
+msgstr ""
+
+msgid "Cams"
+msgstr ""
+
+msgid "Update Now & Restart Enigma2"
+msgstr "Ενημέρωση τώρα & επανεκκίνηση Enigma2"
+
+msgid "ERROR - Error unpacking %s' % source"
+msgstr "ΣΦΑΛΜΑ - Σφάλμα κατά την αποσυσκευασία της προέλευσης % s' %"
+
+msgid "Require pin:"
+msgstr "Απαιτείται pin:"
+
+msgid "File Location xxxlist.txt :"
+msgstr "Τοποθεσία αρχείου xxxlist.txt :"
+
+msgid "Sort xxxlist :"
+msgstr "Ταξινόμηση xxxlist:"
+
+msgid "--- boy ---"
+msgstr "--- Αγόρια ---"
+
+msgid "--- gay ---"
+msgstr "--- Γκέι ---"
+
+msgid "--- Transgender ---"
+msgstr "--- Τρανσέξουαλ ---"
+
+msgid "--- Couple ---"
+msgstr "--- Ζευγάρια ---"
+
+msgid "--- Mature ---"
+msgstr "--- Ώριμες ---"
+
+msgid "--- Fetish ---"
+msgstr "--- Φετίχ ---"
+
+msgid "--- Lesbian ---"
+msgstr "--- Λεσβίες ---"
+
+msgid "--- Soul_mate ---"
+msgstr "--- Αδελφή ψυχή ---"
+
+msgid "--- Hot_flirt ---"
+msgstr "--- Καυτό φλέρτ ---"
+
+msgid "--- Girl ---"
+msgstr "--- Κορίτσια ---"
+
+msgid "boy"
+msgstr "Αγόρια"
+
+msgid "gay"
+msgstr "Γκέι"
+
+msgid "Transgender"
+msgstr "Τρανσέξουαλ"
+
+msgid "Couple"
+msgstr "Ζευγάρια"
+
+msgid "Mature"
+msgstr "Ώριμες"
+
+msgid "Fetish"
+msgstr "Φετίχ"
+
+msgid "Lesbian"
+msgstr "Λεσβίες"
+
+msgid "Soul_mate"
+msgstr "Αδελφή ψυχή"
+
+msgid "Hot_flirt"
+msgstr "Καυτό φλέρτ"
+
+msgid "Girl"
+msgstr "Κορίτσια"
+
+msgid "--- Couples ---"
+msgstr "--- Ζευγάρια ---"
+
+msgid "--- Male ---"
+msgstr "--- Αρσενικό ---"
+
+msgid "--- Transsexual ---"
+msgstr "--- Τρανσέξουαλ ---"
+
+msgid "--- Female ---"
+msgstr "--- Θηλυκό ---"
+
+msgid "vapor"
+msgstr "ατμός"
+
+msgid "Men"
+msgstr "Άνδρες"
+
+msgid "Shemale"
+msgstr "Τραβεστί"
+
+msgid "Women"
+msgstr "Γυναίκες"
+
+msgid "new"
+msgstr "νέα"
+
+msgid "ERROR - Error downloading: "
+msgstr "ΣΦΑΛΜΑ - Σφάλμα κατά τη λήψη: "
+
+msgid "ERROR"
+msgstr "ΣΦΑΛΜΑ"
+
+msgid "ERROR - Error unpacking /tmp/iptv-host-xxx.tar.gz"
+msgstr "ΣΦΑΛΜΑ - Σφάλμα αποσυσκευασίας /tmp/iptv-host-xxx.tar.gz"
+
+msgid "ERROR - Invalid file format /tmp/iptv-host-xxx.tar.gz"
+msgstr "ΣΦΑΛΜΑ - Μη έγκυρη μορφή αρχείου /tmp/iptv-host-xxx.tar.gz"
+
+msgid "ERROR - copy error"
+msgstr "ΣΦΑΛΜΑ - σφάλμα αντιγραφής"
+
+msgid "Update End. Please manual restart enigma2"
+msgstr "Λήξη ενημέρωσης. Παρακαλώ επανεκκινήστε χειροκίνητα το enigma2"
+
+msgid "---UPDATE---"
+msgstr "---ΕΝΗΜΕΡΩΣΗ---"
+
+msgid "UPDATE MENU"
+msgstr "ΜΕΝΟΥ ΕΝΗΜΕΡΩΣΗΣ"
+
+msgid " - Remote version"
+msgstr " - Απομακρυσμένη έκδοση"
+
+msgid "UPDATE"
+msgstr "ΕΝΗΜΕΡΩΣΗ"
+
+msgid "UPDATE-CHANGES"
+msgstr "ΕΝΗΜΕΡΩΣΗ-ΑΛΛΑΓΕΣ"
+
+msgid "UPDATE-NOW"
+msgstr "ΕΝΗΜΕΡΩΣΗ-ΤΩΡΑ"
+
+msgid "CHANGES IN VERSION"
+msgstr "ΑΛΛΑΓΕΣ ΣΤΗΝ ΕΚΔΟΣΗ"
+
+msgid "Update Now"
+msgstr "Ενημέρωση τώρα"
+
+msgid "Remote XXXversion"
+msgstr "Απομακρυσμένη έκδοση XXX"
+
+msgid "Local  XXXversion"
+msgstr "Τοπική έκδοση XXX"
+
+msgid "Most Favorited"
+msgstr "Πλέον αγαπημένα"
+
+msgid "xxxlist.txt"
+msgstr ""
+
+msgid "+++ XXXLIST +++"
+msgstr ""
+
+msgid "On Air"
+msgstr "Στον αέρα"
+
+msgid "Longest"
+msgstr "Μεγαλύτερη"
+
+msgid "Highest Rated"
+msgstr "Υψηλότερη βαθμολογία"
+
+msgid "Pornstars"
+msgstr "Πορνοστάρ"
+
+msgid "Last"
+msgstr "Τελευταίο"
+
+msgid "Most Favored"
+msgstr "Πλέον αγαπημένα"
+
+msgid "Newest"
+msgstr "Νεότερα"
+
+msgid "Featured videos"
+msgstr "Προτεινόμενα βίντεο"
+
+msgid "New Videos"
+msgstr "Νέα βίντεο"
+
+msgid "Hits"
+msgstr "Επιτυχίες"
+
+msgid "Hot"
+msgstr "Καυτά"
+
+msgid "LAST"
+msgstr "ΤΕΛΕΥΤΑΙΑ"
+
+msgid "Next"
+msgstr "Επόμενη"
+
+msgid "Page: "
+msgstr "Σελίδα: "
+
+msgid "Last Page"
+msgstr "Τελευταία σελίδα"
+
+msgid "Software decoding as"
+msgstr "Αποκωδικοποίηση λογισμικού ως"
+
+msgid "Some changes will be applied only after movie player restart."
+msgstr "Ορισμένες αλλαγές θα εφαρμοστούν μόνο μετά την επανεκκίνηση της αναπαραγωγής ταινιών."
+
+msgid "IPTV Player download manager"
+msgstr "Διαχείριση λήψεων του IPTV Player"
+
+msgid "Animation [dubbing]"
+msgstr "Κινούμενα σχέδια [μεταγλώττιση]"
+
+msgid "Series [dubbing]"
+msgstr "Σειρά [μεταγλώττιση]"
+
+msgid "Animation [subtitles]"
+msgstr "Κινούμενα σχέδια [υπότιτλοι]"
+
+msgid "Series [subtitles]"
+msgstr "Σειρά [υπότιτλοι]"
+
+msgid "The worst"
+msgstr "Χείριστη"
+
+msgid "The best"
+msgstr "Καλύτερη"
+
+msgid "Video default quality:"
+msgstr "Προεπιλεγμένη ποιότητα βίντεο:"
+
+msgid "Use default quality:"
+msgstr "Χρήση προεπιλεγμένης ποιότητας:"
+
+msgid "Portal:"
+msgstr "Πύλη:"
+
+msgid "Live-streams"
+msgstr "Ζωντανές ροές"
+
+msgid "New Movies"
+msgstr "Νέες ταινίες"
+
+msgid "HD Movies"
+msgstr "Ταινίες HD"
+
+msgid "Latest Movies"
+msgstr "Τελευταίες ταινίες"
+
+msgid "Latest TV Episodes"
+msgstr "Τελευταία τηλεοπτικά επεισόδια"
+
+msgid "New TV Episodes"
+msgstr "Νέα τηλεοπτικά επεισόδια"
+
+msgid "Coming Soon"
+msgstr "Προσεχώς"
+
+msgid "Most popular"
+msgstr "Τα πιο δημοφιλή"
+
+msgid "Treat episode as TV Show"
+msgstr "Αντιμετώπιση επεισοδίου ως τηλεοπτική εκπομπή"
+
+msgid "Show recommended by Rafalcool1:"
+msgstr "Εμφάνιση συνιστάται από Rafalcool1:"
+
+msgid "Recommended by Rafalcool1"
+msgstr "Συνιστάται από Rafalcool1"
+
+msgid "List of movies prepared by Rafalcool1"
+msgstr "Κατάλογος ταινιών που ετοίμασε ο Rafalcool1"
+
+msgid "http://fs.to/"
+msgstr ""
+
+msgid "Use ru proxy server to get file lists"
+msgstr "Χρησιμοποιήστε τον διακομιστή μεσολάβησης ru για να λάβετε λίστες αρχείων"
+
+msgid "Audio"
+msgstr "Ήχος"
+
+msgid "New episodes"
+msgstr "Νέα επεισόδια"
+
+msgid "External player use software decoder for the WMA"
+msgstr "Η εξωτερική αναπαραγωγή χρησιμοποιεί αποκωδικοποιητή λογισμικού για το WMA"
+
+msgid "AAC mix mode"
+msgstr "Λειτουργία μίξης AAC"
+
+msgid "Preferred protocol:"
+msgstr "Προτιμώμενο πρωτόκολλο:"
+
+msgid "Use the default video quality:"
+msgstr "Χρήση της προεπιλεγμένης ποιότητας βίντεο:"
+
+msgid "password:"
+msgstr "κωδικός πρόσβασης:"
+
+msgid "login:"
+msgstr "σύνδεση:"
+
+msgid "Sort results after:"
+msgstr "Ταξινόμηση αποτελεσμάτων μετά:"
+
+msgid "Alphabetically"
+msgstr "Αλφαβητικά"
+
+msgid "Top rated"
+msgstr "Κορυφαία"
+
+msgid "Latest"
+msgstr "Τελευταία"
+
+msgid "Najtrafniejsze"
+msgstr "Πιο σχετικό"
+
+msgid "Folder start"
+msgstr "Έναρξη φακέλου"
+
+msgid "Name hamster (login)"
+msgstr "Όνομα hamster (σύνδεση)"
+
+msgid "Password for hamster"
+msgstr "Κωδικός για hamster"
+
+msgid "Explore"
+msgstr "Εξερεύνηση"
+
+msgid "Small films and anime"
+msgstr "Μικρές ταινίες και anime"
+
+msgid "Films Extremal"
+msgstr "Ταινίες Extremal"
+
+msgid "Automotive , accidents"
+msgstr "Αυτοκίνητο , ατυχήματα"
+
+msgid "Muzik"
+msgstr "Μουσική"
+
+msgid "Straight from Polish"
+msgstr "Κατευθείαν από Πολωνικά"
+
+msgid "Sport"
+msgstr "Σπορ"
+
+msgid "Comedies"
+msgstr "Κωμωδίες"
+
+msgid "Miscellaneous"
+msgstr "Διάφορα"
+
+msgid "Life of students"
+msgstr "Η ζωή των φοιτητών"
+
+msgid "Waiting room"
+msgstr "Αίθουσα αναμονής"
+
+msgid "User Videos 3dEU?"
+msgstr "Βίντεο χρήστη 3dEU;"
+
+msgid "  Filmy3dEU login:"
+msgstr "  Σύνδεση Filmy3dEU:"
+
+msgid "  Filmy3dEU password:"
+msgstr "  Κωδικός Filmy3dEU:"
+
+msgid "Added date"
+msgstr "Ημερομηνία προσθήκης"
+
+msgid "Comment count"
+msgstr "Αριθμός σχολίων"
+
+msgid "Recommended"
+msgstr "Συνιστώμενα"
+
+msgid "Most Watched"
+msgstr "Περισσότερες παρακολουθήσεις"
+
+msgid "Homepage"
+msgstr "Αρχική σελίδα"
+
+msgid "Category"
+msgstr "Κατηγορία"
+
+msgid "Katalog A-Z"
+msgstr "Κατάλογος Α-Ω"
+
+msgid "Localization"
+msgstr "Μετάφραση"
+
+msgid "Argentina"
+msgstr "Αργεντινή"
+
+msgid "Australia"
+msgstr "Αυστραλία"
+
+msgid "Belgium"
+msgstr "Βέλγιο"
+
+msgid "Brazil"
+msgstr "Βραζιλία"
+
+msgid "Canada"
+msgstr "Καναδάς"
+
+msgid "France"
+msgstr "Γαλλία"
+
+msgid "Germany"
+msgstr "Γερμανία"
+
+msgid "India"
+msgstr "Ινδία"
+
+msgid "Indonesia"
+msgstr "Ινδονησία"
+
+msgid "International"
+msgstr "Διεθνή"
+
+msgid "Ireland"
+msgstr "Ιρλανδία"
+
+msgid "Italy"
+msgstr "Ιταλία"
+
+msgid "Malaysia"
+msgstr "Μαλαισία"
+
+msgid "Morocco"
+msgstr "Μαρόκο"
+
+msgid "Netherlands"
+msgstr "Ολλανδία"
+
+msgid "Pakistan"
+msgstr "Πακιστάν"
+
+msgid "Philippines"
+msgstr "Φιλιππίνες"
+
+msgid "Portugal"
+msgstr "Πορτογαλία"
+
+msgid "Singapore"
+msgstr "Σιγκαπούρη"
+
+msgid "Swiss"
+msgstr "Ελβετία"
+
+msgid "Switzerland"
+msgstr "Ελβετία"
+
+msgid "Schweiz"
+msgstr "Ελβετία"
+
+msgid "Tunisia"
+msgstr "Τυνησία"
+
+msgid "United States"
+msgstr "Ηνωμένες Πολιτείες"
+
+msgid "United Kingdom"
+msgstr "Ηνωμένο Βασίλειο"
+
+msgid "Spain"
+msgstr "Ισπανία"
+
+msgid "Romania"
+msgstr "Ρουμανία"
+
+msgid "Mexico"
+msgstr "Μεξικό"
+
+msgid "Belgian"
+msgstr "Βέλγιο"
+
+msgid "Austria"
+msgstr "Αυστρία"
+
+msgid "VietNam"
+msgstr "Βιετνάμ"
+
+msgid "Japan"
+msgstr "Ιαπωνία"
+
+msgid "Czech Republic"
+msgstr "Δημοκρατία της Τσεχίας"
+
+msgid "Arab"
+msgstr "Αραβικά"
+
+msgid "Korea"
+msgstr "Κορέα"
+
+msgid "China"
+msgstr "Κίνα"
+
+msgid "Serials"
+msgstr "Σειρές"
+
+msgid "sun sessions"
+msgstr "συνεδρίες sun"
+
+msgid "Other videos"
+msgstr "Άλλα βίντεο"
+
+msgid "Ibiza Global Radio"
+msgstr ""
+
+msgid "Top 100"
+msgstr "Κορυφαία 100"
+
+msgid "Year"
+msgstr "Έτος"
+
+msgid "24 h"
+msgstr "24 ώρ"
+
+msgid "Quarter"
+msgstr "Τέταρτο"
+
+msgid "Most"
+msgstr "Περισσότερα"
+
+msgid "List of anime"
+msgstr "Λίστα anime"
+
+msgid "List of films"
+msgstr "Λίστα ταινιών"
+
+msgid "Anime Issued"
+msgstr "Έκδοση Anime"
+
+msgid "New episodes broadcast"
+msgstr "Μετάδοση νέων επεισοδίων"
+
+msgid "Recently added episodes from previous seasons"
+msgstr "Επεισόδια που προστέθηκαν πρόσφατα από προηγούμενες σεζόν"
+
+msgid "Harbinger"
+msgstr "Προάγγελος"
+
+msgid "User PREMIUM KinomanTV?"
+msgstr "Χρήστης PREMIUM KinomanTV;"
+
+msgid "  KinomanTV login:"
+msgstr "  Σύνδεση KinomanTV:"
+
+msgid "  KinomanTV password:"
+msgstr "  Κωδικός KinomanTV:"
+
+msgid "Categories films"
+msgstr "Κατηγορίες ταινιών"
+
+msgid "Last added"
+msgstr "Τελευταία προσθήκη"
+
+msgid "Most rated"
+msgstr "Μεγαλύτερη βαθμολογία"
+
+msgid "My Favorites"
+msgstr "Τα αγαπημένα μου"
+
+msgid "Enter data into your account (blue key)."
+msgstr "Εισάγετε δεδομένα στο λογαριασμό σας (μπλε κουμπί)."
+
+msgid "Geolocation IP:"
+msgstr "IP γεωγραφικής θέσης:"
+
+msgid "TV channels"
+msgstr "Τηλεοπτικά κανάλια"
+
+msgid "Radio stations"
+msgstr "Ραδιοφωνικοί σταθμοί"
+
+msgid "Latest series"
+msgstr "Τελευταίες σειρές"
+
+msgid "bitrate: worst"
+msgstr "bitrate: χειρότερο"
+
+msgid "bitrate: 200p"
+msgstr ""
+
+msgid "bitrate: 450p"
+msgstr ""
+
+msgid "bitrate: 900"
+msgstr ""
+
+msgid "bitrate: 1800"
+msgstr ""
+
+msgid "bitrate: the best"
+msgstr "bitrate: καλύτερο"
+
+msgid "The default video format:"
+msgstr "Η προεπιλεγμένη μορφή βίντεο:"
+
+msgid "Use the default video format:"
+msgstr "Χρήση της προεπιλεγμένης μορφής βίντεο:"
+
+msgid "Ekstraklasa use a proxy?"
+msgstr "Χρήση διακομιστή μεσολάβησης;"
+
+msgid "Goals"
+msgstr "Στόχοι"
+
+msgid "Shortcuts"
+msgstr "Συντομεύσεις"
+
+msgid "Gateway queue"
+msgstr "Ουρά πύλης"
+
+msgid "Warehouse"
+msgstr "Αποθήκη"
+
+msgid "The most relevant"
+msgstr "Το πιο σχετικό"
+
+msgid "Popularity"
+msgstr "Δημοτικότητα"
+
+msgid "Items"
+msgstr "Στοιχεία"
+
+msgid "Recent Items (Popular)"
+msgstr "Πρόσφατα στοιχεία (δημοφιλή)"
+
+msgid "Recent Items (All)"
+msgstr "Πρόσφατα στοιχεία (όλα)"
+
+msgid "Feature Potential Items"
+msgstr "Δυνατότητα πιθανών στοιχείων"
+
+msgid "Top Items (Today)"
+msgstr "Κορυφαία στοιχεία (Σήμερα)"
+
+msgid "Top Items (This Week)"
+msgstr "Κορυφαία στοιχεία (Αυτή την εβδομάδα)"
+
+msgid "Top Items (This Month)"
+msgstr "Κορυφαία στοιχεία (Αυτόν τον μήνα)"
+
+msgid "Top Items (All time)"
+msgstr "Κορυφαία στοιχεία (Όλες οι εποχές)"
+
+msgid "Yoursay"
+msgstr ""
+
+msgid "Liveleakers"
+msgstr ""
+
+msgid "Must See"
+msgstr "Πρέπει να δείτε"
+
+msgid "Syria"
+msgstr "Συρία"
+
+msgid "Entertainment"
+msgstr "Διασκέδαση"
+
+msgid "Browse Channels"
+msgstr "Περιήγηση καναλιών"
+
+msgid "By default, sort by:"
+msgstr "Από προεπιλογή, ταξινόμηση κατά:"
+
+msgid "***Any***"
+msgstr "***Οποιοδηποτε***"
+
+msgid "most viewed"
+msgstr "περισσότερες προβολές"
+
+msgid "longest"
+msgstr "μεγαλύτερο"
+
+msgid "top rated"
+msgstr "κορυφαία βαθμολογία"
+
+msgid "random"
+msgstr "τυχαία"
+
+msgid "Lastest"
+msgstr "Τελευταία"
+
+msgid "Use a proxy"
+msgstr "Χρήση διακομιστή μεσολάβησης"
+
+msgid "Films"
+msgstr "Ταινίες"
+
+msgid "Documents"
+msgstr "Έγγραφα"
+
+msgid "Tales"
+msgstr "Ιστορίες"
+
+msgid "preferred streaming protocol"
+msgstr "προτιμώμενο πρωτόκολλο ροής"
+
+msgid "Age viewer:"
+msgstr "Ηλικιακός θεατής:"
+
+msgid "Hide Video in the list above the age of the viewer:"
+msgstr "Απόκρυψη βίντεο στη λίστα πάνω από την ηλικία του θεατή:"
+
+msgid "TOP100 Always"
+msgstr "TOP100 Πάντα"
+
+msgid "TOP100 Of the week"
+msgstr "TOP100 Της εβδομάδας"
+
+msgid "TOP100 Month"
+msgstr "TOP100 Μήνας"
+
+msgid "MOB: low"
+msgstr "MOB: χαμηλή"
+
+msgid "SD: standard"
+msgstr "SD: στάνταρ"
+
+msgid "HD: high"
+msgstr "HD: υψηλή"
+
+msgid "FHD: very high"
+msgstr "FHD: πολύ υψηλή"
+
+msgid "Popular movies"
+msgstr "Δημοφιλείς ταινίες"
+
+msgid "Topics films"
+msgstr "Θέματα ταινίες"
+
+msgid "Editorial"
+msgstr "Σύνταξη"
+
+msgid "Action RPG"
+msgstr "Ενέργεια RPG"
+
+msgid "The Witcher"
+msgstr "Ο Γητευτής"
+
+msgid "Size of the icons"
+msgstr "Μέγεθος των εικονιδίων"
+
+msgid "Connection type:"
+msgstr "Τύπος σύνδεσης:"
+
+msgid "Very high"
+msgstr "Πολύ υψηλή"
+
+msgid "Best"
+msgstr "Καλύτερη"
+
+msgid "Worst"
+msgstr "Χειρότερη"
+
+msgid "Very low"
+msgstr "Πολύ χαμηλή"
+
+msgid "Average"
+msgstr "Μέσος όρος"
+
+msgid "TVN Introduce yourself as:"
+msgstr "TVN Συστηθείτε ως:"
+
+msgid "TVN use a proxy?"
+msgstr "Χρήση TVN διακομιστή μεσολάβησης;"
+
+msgid "No name"
+msgstr "Χωρίς όνομα"
+
+msgid "Audience zone"
+msgstr "Ζώνη κοινού"
+
+msgid "  password:"
+msgstr "  κωδικός:"
+
+msgid "The default video format"
+msgstr "Η προεπιλεγμένη μορφή βίντεο"
+
+msgid "Use Proxy?"
+msgstr "Χρήση διακομιστή μεσολάβησης;"
+
+msgid "More as next page"
+msgstr "Περισσότερα ως επόμενη σελίδα"
+
+msgid ":for"
+msgstr ":για"
+
+msgid "Programs"
+msgstr "Προγράμματα"
+
+msgid "Information & journalism"
+msgstr "Πληροφόρηση &; δημοσιογραφία"
+
+msgid "Information Services"
+msgstr "Υπηρεσίες πληροφοριών"
+
+msgid "Journalism"
+msgstr "Δημοσιογραφία"
+
+msgid "Program A-Z"
+msgstr "Πρόγραμμα Α-Ω"
+
+msgid "Prefered format"
+msgstr "Προτιμώμενη μορφή"
+
+msgid "SORT"
+msgstr "ΕΙΔΟΣ"
+
+msgid "LATEST VIDEOS"
+msgstr "ΤΕΛΕΥΤΑΙΑ ΒΙΝΤΕΟ"
+
+msgid "SHOW REPLAY"
+msgstr "ΕΜΦΑΝΙΣΗ ΕΠΑΝΑΛΗΨΗΣ"
+
+msgid "WWE NETWORK"
+msgstr "ΔΙΚΤΥΟ WWE"
+
+msgid "SMACKDOWN"
+msgstr ""
+
+msgid "LUCHA UNDERGROUND"
+msgstr "LUCHA ΥΠΟΓΕΙΑ"
+
+msgid "DEFAULT"
+msgstr "ΠΡΟΕΠΙΛΟΓΉ"
+
+msgid "VIEWS"
+msgstr "ΠΡΟΒΟΛΕΣ"
+
+msgid "DATE"
+msgstr "ΗΜΕΡΟΜΗΝΊΑ"
+
+msgid "format: best"
+msgstr "μορφή: καλύτερη"
+
+msgid "format: worst"
+msgstr "μορφή: χειρότερη"
+
+msgid "format: 720"
+msgstr "μορφή: 720"
+
+msgid "format: 240p"
+msgstr "μορφή: 240p"
+
+msgid "format: 360p"
+msgstr "μορφή: 360p"
+
+msgid "format: 480p"
+msgstr "μορφή: 480p"
+
+msgid "Cannot find player content"
+msgstr "Δεν είναι δυνατή η εύρεση του περιεχομένου της αναπαραγωγής"
+
+msgid "Sort movies: "
+msgstr "Ταξινόμηση ταινιών: "
+
+msgid "last added"
+msgstr "τελευταία προσθήκη"
+
+msgid "last watched"
+msgstr "τελευταία παρακολούθηση"
+
+msgid "views"
+msgstr "προβολές"
+
+msgid "favorite"
+msgstr "αγαπημένα"
+
+msgid "TOP100 Week"
+msgstr "TOP100 Εβδομάδα"
+
+msgid "TOP100 of the Month"
+msgstr "TOP100 του μήνα"
+
+msgid "Iplex use a proxy?"
+msgstr "Χρήση Iplex διακομιστή μεσολάβησης;"
+
+msgid "WrestlingNet._listVideos - no markers [m1][m2] found!"
+msgstr "WrestlingNet._listVideos - δεν βρέθηκαν δείκτες [m1][m2]!"
+
+msgid ""
+"Please visit '%s' from using web-browser form the PC. If links are available please report this problem.\n"
+"Email: samsamsam@o2.pl"
+msgstr ""
+"Παρακαλώ επισκεφτείτε το '%s' χρησιμοποιώντας το πρόγραμμα περιήγησης ιστού από τον υπολογιστή. Εάν υπάρχουν διαθέσιμοι σύνδεσμοι, αναφέρετε αυτό το πρόβλημα.\n"
+"Email: samsamsam@o2.pl"
+
+msgid "Last error: \"Videomega has blocked your IP for some time. Please retry this link after some time.\""
+msgstr "Τελευταίο σφάλμα: \"Το Videoomega έχει αποκλείσει την IP σας για κάποιο χρονικό διάστημα. Δοκιμάστε ξανά αυτόν τον σύνδεσμο μετά από κάποιο χρονικό διάστημα.\""
+
+msgid "Newest added"
+msgstr "Νεότερη προσθήκη"
+
+msgid "Oldest added"
+msgstr "Παλαιότερη προσθήκη"
+
+msgid "Newest year"
+msgstr "Νεότερο έτος"
+
+msgid "Oldest year"
+msgstr "Παλαιότερο έτος"
+
+msgid "Best rating"
+msgstr "Καλύτερη βαθμολογία"
+
+msgid "Worse rating"
+msgstr "Χειρότερη βαθμολογία"
+
+msgid "Most viewed"
+msgstr "Περισσότερες προβολές"
+
+msgid "Less viewed"
+msgstr "Λιγότερες προβολές"
+
+msgid "Login failed."
+msgstr "Η σύνδεση απέτυχε."
+
+msgid ""
+"This host requires registration. \n"
+"Please fill your login and password in the host configuration. Available under blue button."
+msgstr ""
+"Αυτός ο host απαιτεί εγγραφή.\n"
+"Παρακαλώ συμπληρώστε τα στοιχεία σύνδεσης και τον κωδικό πρόσβασης στις ρυθμίσεις του host. Διαθέσιμο από το μπλε κουμπί."
+
+msgid "Default video quality"
+msgstr "Προεπιλεγμένη ποιότητα βίντεο"
+
+msgid "Use default video quality"
+msgstr "Χρήση προεπιλεγμένης ποιότητας βίντεο"
+
+msgid "Icon type"
+msgstr "Τύπος εικονιδίου"
+
+msgid "The problem with user logon \"%s\".\n"
+msgstr "Το πρόβλημα με τη σύνδεση χρήστη \"%s\".\n"
+
+msgid "Randomize a playlist"
+msgstr "Τυχαία επιλογή μιας λίστας αναπαραγωγής"
+
+msgid "New Releases"
+msgstr "Νέες κυκλοφορίες"
+
+msgid "Categorization:"
+msgstr "Κατηγοριοποίηση:"
+
+msgid "http://online-kinopokaz.ru/"
+msgstr ""
+
+msgid "Labels"
+msgstr "Ετικέτες"
+
+msgid "Latest Update"
+msgstr "Τελευταία ενημέρωση"
+
+msgid "Anime List"
+msgstr "Λίστα Anime"
+
+msgid "Create Date"
+msgstr "Ημερομηνία δημιουργίας"
+
+msgid "Top Movies"
+msgstr "Κορυφαίες ταινίες"
+
+msgid "New HD Videos"
+msgstr "Νέα βίντεο HD"
+
+msgid "Use proxy gateway"
+msgstr "Χρήση πύλης διακομιστή μεσολάβησης"
+
+msgid "show iframe for audio item"
+msgstr "εμφάνιση iframe για στοιχείο ήχου"
+
+msgid "Iframe file"
+msgstr "Αρχείο Iframe"
+
+msgid "Clear iframe file"
+msgstr "Εκκαθάριση αρχείου iframe"
+
+msgid "Total size: "
+msgstr "Συνολικό μέγεθος: "
+
+msgid "Show file size"
+msgstr "Εμφάνιση μεγέθους αρχείου"
+
+msgid "All Leagues"
+msgstr "Όλα τα πρωταθλήματα"
+
+msgid "Previous Seasons"
+msgstr "Προηγούμενες σεζόν"
+
+msgid "Goal Of The Month"
+msgstr "Στόχος του μήνα"
+
+msgid "Promoted"
+msgstr "Προώθηση"
+
+msgid "Catrtoon list"
+msgstr "Λίστα κινουμένων σχεδίων"
+
+msgid "New cartoon"
+msgstr "Νέα κινούμενα σχέδια"
+
+msgid "Sort by alphabet"
+msgstr "Ταξινόμηση κατά αλφάβητο"
+
+msgid "Sort by popularity"
+msgstr "Ταξινόμηση κατά δημοτικότητα"
+
+msgid "Latest update"
+msgstr "Τελευταία ενημέρωση"
+
+msgid "Make directory [%s]"
+msgstr "Δημιουργία καταλόγου [%s]"
+
+msgid ""
+"Can not get mount points - cmd mount failed.\n"
+"Return code[%s].\n"
+"Return data[%s]."
+msgstr ""
+"Δεν είναι δυνατή η λήψη σημείων προσάρτησης - Η προσάρτηση cmd απέτυχε.\n"
+"Κωδικός επιστροφής[%s].\n"
+"Επιστροφή δεδομένων[%s]."
+
+msgid ""
+"Mount ISO file [%s] on [%s] failed.\n"
+"Return code[%s].\n"
+"Return data[%s]."
+msgstr ""
+"Η προσάρτηση του αρχείου ISO [%s] στο [%s] απέτυχε.\n"
+"Κωδικός επιστροφής[%s].\n"
+"Επιστροφή δεδομένων[%s]."
+
+msgid "Mounted on %s"
+msgstr "Προσαρτημένο στο %s"
+
+msgid "Umount iso file"
+msgstr "Μη προσάρτηση αρχείου iso"
+
+msgid "Set file name"
+msgstr "Ορισμός ονόματος αρχείου"
+
+msgid "File \"%s\" already exists!"
+msgstr "Το αρχείο \"%s\" υπάρχει ήδη!"
+
+msgid "Mangas"
+msgstr ""
+
+msgid "By Year"
+msgstr "Κατά έτος"
+
+msgid "Recently Added"
+msgstr "Πρόσφατη προσθήκη"
+
+msgid "New"
+msgstr "Νέα"
+
+msgid "Home"
+msgstr "Αρχική"
+
+msgid "Season"
+msgstr "Σεζόν"
+
+msgid "Plugin can be run on one of the following platforms: sh4, mipsel, i686, armv7, armv5t."
+msgstr "Το πρόσθετο μπορεί να εκτελεστεί σε μία από τις ακόλουθες πλατφόρμες: sh4, mipsel, i686, armv7, armv5t."
+
+msgid "SovDub"
+msgstr ""
+
+msgid "Foreign films"
+msgstr "Ξένες ταινίες"
+
+msgid "Major rankings"
+msgstr "Σημαντικές βαθμολογίες"
+
+msgid "By year"
+msgstr "Κατά έτος"
+
+msgid "Watch Trailer"
+msgstr "Δείτε το τρέιλερ"
+
+msgid "[Trailer]"
+msgstr "[Τρέιλερ]"
+
+msgid "Detection of the OpenSSL 1.0.0 version."
+msgstr "Εντοπισμός της έκδοσης OpenSSL 1.0.0."
+
+msgid ""
+"Fatal Error!\n"
+"Openssl could not be found. Please install it and retry."
+msgstr ""
+"Ανεπανόρθωτο σφάλμα!\n"
+"Το Openssl δεν βρέθηκε. Παρακαλώ εγκαταστήστε το και ξαναπροσπαθήστε."
+
+msgid ""
+"Fatal Error!\n"
+"Your Openssl is not supported."
+msgstr ""
+"Ανεπανόρθωτο σφάλμα!\n"
+"Το Openssl σας δεν υποστηρίζεται."
+
+msgid ""
+"OpenSSL in your image is not supported.\n"
+"Some functions may not work correctly."
+msgstr ""
+"Το OpenSSL στο image σας δεν υποστηρίζεται.\n"
+"Ορισμένες λειτουργίες ενδέχεται να μην λειτουργούν σωστά."
+
+msgid "Install into the \"%s\"."
+msgstr "Εγκατάσταση στο  \"%s\"."
+
+msgid "Decode file [%s] problem."
+msgstr "Πρόβλημα αποκωδικοποίησης αρχείου [%s]."
+
+msgid "Latest movies"
+msgstr "Τελευταίες ταινίες"
+
+msgid "Movies genres"
+msgstr "Είδη ταινιών"
+
+msgid "Movies by year"
+msgstr "Ταινίες ανά έτος"
+
+msgid "TV Series"
+msgstr "Τηλεοπτικές σειρές"
+
+msgid "Series list"
+msgstr "Λίστα σειρών"
+
+msgid "Popular Episodes"
+msgstr "Δημοφιλή επεισόδια"
+
+msgid "Newest Episodes"
+msgstr "Νεότερα επεισόδια"
+
+msgid "All A-Z"
+msgstr "Όλα Α-Ω"
+
+msgid "From E2 settings"
+msgstr "Από τις ρυθμίσεις του Ε2"
+
+msgid "bestfit"
+msgstr "προσαρμογή"
+
+msgid "panscan"
+msgstr ""
+
+msgid "letterbox"
+msgstr ""
+
+msgid "nonlinear"
+msgstr "μη γραμμικό"
+
+msgid "Cartoons"
+msgstr "Κινούμενα σχέδια"
+
+msgid "Genre selection"
+msgstr "Επιλογή είδους"
+
+msgid "By country"
+msgstr "Κατά χώρα"
+
+msgid "Translations"
+msgstr "Μεταφράσεις"
+
+msgid "Collections"
+msgstr "Συλλογές"
+
+msgid "Link is not supported by the gstplayer. Please use the extelayer3 if available."
+msgstr "Ο σύνδεσμος δεν υποστηρίζεται από το gstplayer. Παρακαλώ χρησιμοποιήστε το extelayer3 εάν είναι διαθέσιμο."
+
+msgid "Fatal error: consoleWrite failed!"
+msgstr "Ανεπανόρθωτο σφάλμα: αποτυχία εγγραφήςΚονσολας!"
+
+msgid "Most Viewed"
+msgstr "Περισσότερες προβολές"
+
+msgid "Windows Media Video 9 Screen decoder"
+msgstr "Αποκωδικοποιητής οθόνης Windows Media Video 9"
+
+msgid "Sort alphabetically"
+msgstr "Ταξινόμηση αλφαβητικά"
+
+msgid "Fail to get captcha data."
+msgstr "Αποτυχία λήψης δεδομένων captcha."
+
+msgid "Send"
+msgstr "Αποστολή"
+
+msgid "Answer"
+msgstr "Απάντηση"
+
+msgid "Wrong answer."
+msgstr "Λάθος απάντηση."
+
+msgid "Get free credits"
+msgstr "Λάβετε δωρεάν πιστώσεις"
+
+msgid "Fail to get \"%s\""
+msgstr "Αποτυχία λήψης \"%s\""
+
+msgid "Subtitles conversion to UTF-8 failed."
+msgstr "Η μετατροπή υποτίτλων σε UTF-8 απέτυχε."
+
+msgid "Simplify the title and try again."
+msgstr "Απλοποιήστε τον τίτλο και προσπαθήστε ξανά."
+
+msgid "file://"
+msgstr ""
+
+msgid "An error occurred while writing into: %s"
+msgstr "Παρουσιάστηκε σφάλμα κατά την εγγραφή στο: %s"
+
+msgid "Top Cartoons"
+msgstr "Κορυφαία κινούμενα σχέδια"
+
+msgid "Anime"
+msgstr ""
+
+msgid "Cartoon List"
+msgstr "Λίστα κινουμένων σχεδίων"
+
+msgid "only Anime"
+msgstr "μόνο Anime"
+
+msgid "only Cartoons"
+msgstr "μόνο κινούμενα σχέδια"
+
+msgid "Views"
+msgstr "Προβολές"
+
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+msgid "It seems that the subtitle's provider \"%s\" has crashed. Do you want to report this problem?"
+msgstr "Φαίνεται ότι ο πάροχος του υπότιτλου \"%s\" έχει κρασάρει. Θέλετε να αναφέρετε αυτό το πρόβλημα;"
+
+msgid "Subtitles \"%s\" downloaded correctly."
+msgstr "Οι υπότιτλοι \"%s\" έχουν ληφθεί σωστά."
+
+msgid "Do you want to finish?"
+msgstr "Θέλετε να τελειώσετε;"
+
+msgid "Season %s"
+msgstr "Σεζόν %s"
+
+msgid "Failed to create directory \"%s\"."
+msgstr "Αποτυχία δημιουργίας καταλόγου \"%s\"."
+
+msgid "Unzip error code[%s]."
+msgstr "Unzip κωδικός σφάλματος[%s]."
+
+msgid "It seems that unzip utility is not installed."
+msgstr "Φαίνεται ότι η εφαρμογή unzip δεν είναι εγκατεστημένη."
+
+msgid "Wrong format of zip archive."
+msgstr "Λανθασμένη μορφή αρχείου zip."
+
+msgid "Unrar error code[%s]."
+msgstr "Unrar κωδικός σφάλματος[%s]."
+
+msgid "It seems that unrar utility is not installed."
+msgstr "Φαίνεται ότι η εφαρμογή unrar δεν είναι εγκατεστημένη."
+
+msgid "Wrong format of rar archive."
+msgstr "Λανθασμένη μορφή αρχείου rar."
+
+msgid "Failed to write the file \"%s\"."
+msgstr "Αποτυχία εγγραφής του αρχείου \"%s\"."
+
+msgid "Failed to convert the file \"%s\" to UTF-8."
+msgstr "Αποτυχία μετατροπής του αρχείου \"%s\" σε UTF-8."
+
+msgid "Failed to open the file \"%s\"."
+msgstr "Αποτυχία ανοίγματος του αρχείου \"%s\"."
+
+msgid "Login failed!"
+msgstr "Η σύνδεση απέτυχε!"
+
+msgid ""
+"Error message: \"%s\".\n"
+"Error code: \"%s\"."
+msgstr ""
+"Μήνυμα σφάλματος: \"%s\".\n"
+"Κωδικός σφάλματος: \"%s\"."
+
+msgid "Get languages failed!"
+msgstr "Η λήψη γλωσσών απέτυχε!"
+
+msgid "Failed to download subtitle."
+msgstr "Αποτυχία λήψης υποτίτλου."
+
+msgid "Failed to gzip."
+msgstr "Αποτυχία gzip."
+
+msgid "Failed to decode to UTF-8."
+msgstr "Αποτυχία αποκωδικοποίησης σε UTF-8."
+
+msgid "Failed to write file \"%s\"."
+msgstr "Αποτυχία εγγραφής αρχείου \"%s\"."
+
+msgid "json load error 2"
+msgstr "Σφάλμα φόρτωσης JSON 2"
+
+msgid ""
+"Download subtitles error.\n"
+"wget error code[%d]."
+msgstr ""
+"Σφάλμα λήψης υποτίτλων.\n"
+"Κωδικός σφάλματος wget[%d]."
+
+msgid "unzip error - please check if utitlity unzip is available"
+msgstr "σφάλμα αποσυμπίεσης - ελέγξτε εάν το εργαλείο unzip είναι διαθέσιμο"
+
+msgid "write error"
+msgstr "σφάλμα εγγραφής"
+
+msgid "decode error"
+msgstr "σφάλμα αποκωδικοποίησης"
+
+msgid "read error"
+msgstr "σφάλμα ανάγνωσης"
+
+msgid "gzip error"
+msgstr "σφάλμα gzip"
+
+msgid "_checkStatus except error"
+msgstr "Σφάλμα _checkStatus εκτός"
+
+msgid "Confirm the title of the movie"
+msgstr "Επιβεβαίωση του τίτλου της ταινίας"
+
+msgid "Searching subtitles for \"%s\""
+msgstr "Αναζήτηση υποτίτλων για \"%s\""
+
+msgid "Select subtitles provider:"
+msgstr "Επιλογή παρόχου υποτίτλων:"
+
+msgid "OpenSubtitles.org"
+msgstr ""
+
+msgid "Napisy24.pl"
+msgstr ""
+
+msgid "Titlovi.com"
+msgstr ""
+
+msgid "Youtube.com"
+msgstr ""
+
+msgid "Subscene.com"
+msgstr ""
+
+msgid "If available you can choose other source."
+msgstr "Εάν είναι διαθέσιμη, μπορείτε να επιλέξετε άλλη πηγή."
+
+msgid "Reverse a playlist"
+msgstr "Αντιστροφή λίστας αναπαραγωγής"
+
+msgid "Use UA proxy server to get file lists"
+msgstr "Χρήση διακομιστή μεσολάβησης UA για λήψη λιστών αρχείων"
+
+msgid "any"
+msgstr "οποιοδήποτε"
+
+msgid "C subtitle parser"
+msgstr "Αναλυτής υποτίτλων C"
+
+msgid "It improves subtitles parsing.\n"
+msgstr "Βελτιώνει την ανάλυση των υποτίτλων.\n"
+
+msgid "Copy post installed binaries."
+msgstr "Αντιγραφή εγκατεστημένων δυαδικών αρχείων."
+
+msgid "IPTVPlayer - Start"
+msgstr "IPTVPlayer - Έναρξη"
+
+msgid "Info..."
+msgstr "Πληροφορίες..."
+
+msgid "Sort Myfreecams :"
+msgstr "Ταξινόμηση Myfreecams:"
+
+msgid "Global search :"
+msgstr "Καθολική αναζήτηση:"
+
+msgid "Global sorting :"
+msgstr "Καθολική ταξινόμηση:"
+
+msgid "External player use software decoder for the AC3"
+msgstr "Η εξωτερική αναπαραγωγή χρησιμοποιεί αποκωδικοποιητή λογισμικού για το AC3"
+
+msgid "External player use software decoder for the EAC3"
+msgstr "Εξωτερική αναπαραγωγή χρησιμοποιεί αποκωδικοποιητή λογισμικού για το EAC3"
+
+msgid "External player use software decoder for the MP3"
+msgstr "Η εξωτερική αναπαραγωγή χρησιμοποιεί αποκωδικοποιητή λογισμικού για το MP3"
+
+msgid ""
+"Using this host in your country can be illegal.\n"
+"Do you want to continue at your own risk?"
+msgstr ""
+"Η χρήση αυτού του host στη χώρα σας μπορεί να είναι παράνομη.\n"
+"Θέλετε να συνεχίσετε με δική σας ευθύνη;"
+
+msgid "http://tree.tv/"
+msgstr ""
+
+msgid "Live TV"
+msgstr "Ζωντανή τηλεόραση"
+
+msgid "Live Radio"
+msgstr "Ζωντανό ραδιόφωνο"
+
+msgid "Icons quality"
+msgstr "Ποιότητα εικονιδίων"
+
+msgid "Your language preference:"
+msgstr "Η προτίμησή σας στη γλώσσα:"
+
+msgid "By title"
+msgstr "Κατά τίτλο"
+
+msgid "Dokumentalne"
+msgstr "Ντοκιμαντέρ"
+
+msgid "Dla dzieci"
+msgstr "Για παιδιά"
+
+msgid "Verify"
+msgstr "Επαλήθευση"
+
+msgid "Stand-Up"
+msgstr "Όρθια"
+
+msgid ""
+"Please remember to visit http://www.sport365.live/ and watch a few advertisements.\n"
+"This will fix problem, if your playback is constantly interrupted."
+msgstr ""
+"Παρακαλώψ μην ξεχάσετε να επισκεφτείτε το http://www.sport365.live/ και να παρακολουθήσετε μερικές διαφημίσεις.\n"
+"Αυτό θα διορθώσει το πρόβλημα, εάν η αναπαραγωγή σας διακόπτεται συνεχώς."
+
+msgid "Anime list"
+msgstr "Λίστα anime"
+
+msgid "Movies list"
+msgstr "Λίστα ταινιών"
+
+msgid "Opening. Please wait..."
+msgstr "Άνοιγμα. Παρακαλώ περιμένετε..."
+
+msgid "Closing. Please wait..."
+msgstr "Κλείσιμο. Παρακαλώ περιμένετε..."
+
+msgid "Use proxy server:"
+msgstr "Χρήση διακομιστή μεσολάβησης:"
+
+msgid "Any"
+msgstr "Οποιοδήποτε"
+
+msgid "Year: "
+msgstr "Έτος: "
+
+msgid "Connection to server failed!"
+msgstr "Η σύνδεση με τον διακομιστή απέτυχε!"
+
+msgid "Enable reordering"
+msgstr "Ενεργοποίηση αναδιάταξης"
+
+msgid "Disable reordering"
+msgstr "Απενεργοποίηση αναδιάταξης"
+
+msgid ""
+"To watch videos from http://vk.com/ you need to login.\n"
+"Please fill your login and password in the IPTVPlayer configuration."
+msgstr ""
+"Για να παρακολουθήσετε βίντεο από το http://vk.com/ πρέπει να συνδεθείτε.\n"
+"Παρακαλώ συμπληρώστε τα στοιχεία σύνδεσης και τον κωδικό πρόσβασης στις ρυθμίσεις του IPTVPlayer."
+
+msgid ""
+"Login user \"%s\" to http://vk.com/ failed!\n"
+"Please check your login data in the IPTVPlayer configuration."
+msgstr ""
+"Η σύνδεση του χρήστη \"%s\" στο http://vk.com/ απέτυχε!\n"
+"Παρακαλώ ελέγξτε τα δεδομένα σύνδεσής σας στις ρυθμίσεις του IPTVPlayer."
+
+msgid "The problem with user logon \"%s\"."
+msgstr "Το πρόβλημα με τη σύνδεση χρήστη \"%s\"."
+
+msgid "http://sovdub.ru/"
+msgstr ""
+
+msgid "Video mode"
+msgstr "Λειτουργία βίντεο"
+
+msgid "Is this message displayed correctly?"
+msgstr "Εμφανίζεται σωστά αυτό το μήνυμα;"
+
+msgid "Preferred format:"
+msgstr "Προτιμώμενη μορφή:"
+
+msgid "Use web-proxy (it may be illegal):"
+msgstr "Χρήση διακομιστή μεσολάβησης ιστού (μπορεί να είναι παράνομο):"
+
+msgid "Latest programs"
+msgstr "Τελευταία προγράμματα"
+
+msgid "Latest news broadcast"
+msgstr "Τελευταία μετάδοση ειδήσεων"
+
+msgid "Last chance"
+msgstr "Τελευταία ευκαιρία"
+
+msgid "Live broadcasts"
+msgstr "Ζωντανές μεταδόσεις"
+
+msgid "Programs A-Ö"
+msgstr "Προγράμματα A-Ö"
+
+msgid "Only available in Sweden.\n"
+msgstr "Διατίθεται μόνο στη Σουηδία.\n"
+
+msgid "Only available in Sweden."
+msgstr "Διατίθεται μόνο στη Σουηδία."
+
+msgid "Detection of glibc version."
+msgstr "Ανίχνευση έκδοσης glibc."
+
+msgid "Detection version of installed standard C library."
+msgstr "Έκδοση ανίχνευσης της εγκατεστημένης τυπικής βιβλιοθήκης C."
+
+msgid "hlsdl downloader"
+msgstr "Το πρόγραμμα λήψης hlsdl"
+
+msgid ""
+"\n"
+"For more info please ask samsamsam@o2.pl"
+msgstr ""
+"\n"
+"Για περισσότερες πληροφορίες, ρωτήστε στο samsamsam@o2.pl"
+
+msgid "It improves HLS/M3U8 stream download.\n"
+msgstr "Βελτιώνει τη λήψη ροής HLS/M3U8.\n"
+
+msgid "Alternative domain:"
+msgstr "Εναλλακτικός τομέας:"
+
+msgid ""
+"Fatal Error!\n"
+"Plugin is not supported with your platform."
+msgstr ""
+"Ανεπανόρθωτο σφάλμα!\n"
+"Το πρόσθετο δεν υποστηρίζεται σε αυτή την πλατφόρμα."
+
+msgid ""
+"\n"
+"Please visit http://duktape.org/"
+msgstr ""
+"\n"
+"Παρακαλώ επισκεφτείτε το http://duktape.org/"
+
+msgid "Duktape is an embeddable Javascript engine, with a focus on portability and compact footprint.\n"
+msgstr "Το Duktape είναι μια ενσωματωμένη μηχανή Javascript, με έμφαση στη φορητότητα και το συμπαγές αποτύπωμα.\n"
+
+msgid "TV Show"
+msgstr "Τηλεοπτική εκπομπή"
+
+msgid ""
+"Access to this service requires login.\n"
+"Please register on the site \"%s\" and then put your e-mail and password in the host configuration under blue button."
+msgstr ""
+"Η πρόσβαση σε αυτή την υπηρεσία απαιτεί σύνδεση.\n"
+"Παρακαλώ εγγραφείτε στον ιστότοπο \"%s\" και στη συνέχεια βάλτε το e-mail και τον κωδικό πρόσβασης στις ρυθμίσεις του host κάτω από το μπλε κουμπί."
+
+msgid "Login mode"
+msgstr "Λειτουργία σύνδεσης"
+
+msgid "Secure cookie name"
+msgstr "Ασφαλές όνομα cookie"
+
+msgid "Secure cookie value"
+msgstr "Ασφαλής τιμή cookie"
+
+msgid "Name"
+msgstr "Όνομα"
+
+msgid "ID"
+msgstr ""
+
+msgid "Trailer"
+msgstr "Τρέιλερ"
+
+msgid "This service requires a new Enigma2 image with a Python version %s or later."
+msgstr "Αυτή η υπηρεσία απαιτεί ένα νέο image Enigma2 με έκδοση Python %s ή νεότερη."
+
+msgid "Genre: "
+msgstr "Είδος: "
+
+msgid "Order by: "
+msgstr "Σειρά κατά: "
+
+msgid "Score at least: "
+msgstr "Βαθμολογία τουλάχιστον: "
+
+msgid "trailer"
+msgstr "τρέιλερ"
+
+msgid "Advance (cookie item)"
+msgstr "Προκαταβολή (στοιχείο cookie)"
+
+msgid "Simple (e-mail, password)"
+msgstr "Απλό (e-mail, κωδικός πρόσβασης)"
+
+msgid "Top series"
+msgstr "Κορυφαίες σειρές"
+
+msgid "Top movies"
+msgstr "Κορυφαίες ταινίες"
+
+msgid "Upcoming"
+msgstr "Επερχόμενα"
+
+msgid "Most watched"
+msgstr "Περισσότερες παρακολουθήσεις"
+
+msgid "Last update"
+msgstr "Τελευταία ενημέρωση"
+
+msgid "Cartoon list"
+msgstr "Λίστα κινουμένων σχεδίων"
+
+msgid "Allow watched flag to be set (experimental)"
+msgstr "Επιτρέπεται ο ορισμός σημαίας παρακολούθησης (πειραματικό)"
+
+msgid "The color of the viewed item"
+msgstr "Το χρώμα του προβαλλόμενου στοιχείου"
+
+msgid "The color of the watched item"
+msgstr "Το χρώμα του παρακολουθούμενου στοιχείου"
+
+msgid "Unset watched"
+msgstr "Μη ορισμός παρακολούθησης"
+
+msgid "Set watched"
+msgstr "Ορισμός παρακολούθησης"
+
+msgid "http://kinotan.ru/"
+msgstr ""
+
+msgid "Show paid items (it may be illegal)"
+msgstr "Εμφάνιση στοιχείων επί πληρωμή (μπορεί να είναι παράνομα)"
+
+msgid "Show items with DRM"
+msgstr "Εμφάνιση στοιχείων με DRM"
+
+msgid "Items with DRM protection."
+msgstr "Στοιχεία με προστασία DRM."
+
+msgid "Video with DRM protection."
+msgstr "Βίντεο με προστασία DRM."
+
+msgid "Trailers"
+msgstr "Τρέιλερ"
+
+msgid "Hardware floating point"
+msgstr "Υλικό κινητής υποδιαστολής"
+
+msgid "Software floating point"
+msgstr "Λογισμικό κινητής υποδιαστολής"
+
+msgid "after closing"
+msgstr "μετά το κλείσιμο"
+
+msgid "after day"
+msgstr "μετά από μία ημέρα"
+
+msgid "after three days"
+msgstr "μετά από τρεις μέρες"
+
+msgid "after a week"
+msgstr "μετά από μια εβδομάδα"
+
+msgid "jpeg"
+msgstr ""
+
+msgid "Simple list"
+msgstr "Απλή λίστα"
+
+msgid "Tree list"
+msgstr "Λίστα δέντρου"
+
+msgid "http://MOHAMED_OS.gitlab.io/"
+msgstr ""
+
+msgid "private"
+msgstr "ιδιωτικός"
+
+msgid "System"
+msgstr "Σύστημα"
+
+msgid "Own model"
+msgstr "Δικό σας μοντέλο"
+
+msgid "None"
+msgstr "Κανένα"
+
+msgid "Transparent"
+msgstr "Διαφανές"
+
+msgid "Black"
+msgstr "Μαύρο"
+
+msgid "Darkgray"
+msgstr "Σκούρο γκρι"
+
+msgid "Lightgray"
+msgstr "Ανοιχτό γκρι"
+
+msgid "internal"
+msgstr "εσωτερικό"
+
+msgid "external eplayer3"
+msgstr "εξωτερικό eplayer3"
+
+msgid "external gstplayer"
+msgstr "εξωτερικό gstplayer"
+
+msgid "no"
+msgstr "όχι"
+
+msgid "yes, to console"
+msgstr "ναι, στη κονσόλα"
+
+msgid "yes, to file /hdd/iptv.dbg"
+msgstr "ναι, στο αρχείο /hdd/iptv.dbg"
+
+msgid "yes, to file /tmp/iptv.dbg"
+msgstr "ναι, στο αρχείο /tmp/iptv.dbg"
+
+msgid "yes, to file /home/root/logs/iptv.dbg"
+msgstr "ναι, στο αρχείο /home/root/logs/iptv.dbg"
+
+msgid "with source code"
+msgstr "με πηγαίο κώδικα"
+
+msgid "all types"
+msgstr "όλοι οι τύποι"
+
+msgid "4:3 Letterbox"
+msgstr ""
+
+msgid "4:3 PanScan"
+msgstr ""
+
+msgid "16:9"
+msgstr ""
+
+msgid "16:9 always"
+msgstr ""
+
+msgid "16:10 Letterbox"
+msgstr ""
+
+msgid "16:10 PanScan"
+msgstr ""
+
+msgid "16:9 Letterbox"
+msgstr ""
+
+msgid "black"
+msgstr "μαύρο"
+
+msgid "red"
+msgstr "κόκκινο"
+
+msgid "blue"
+msgstr "μπλε"
+
+msgid "green"
+msgstr "πράσινο"
+
+msgid "antique&white"
+msgstr "αντίκα&λευκό"
+
+msgid "navy"
+msgstr "βαθυγάλαζο"
+
+msgid "line"
+msgstr "γραμμή"
+
+msgid "w92"
+msgstr ""
+
+msgid "w154"
+msgstr ""
+
+msgid "w185"
+msgstr ""
+
+msgid "w500"
+msgstr ""
+
+msgid "w300"
+msgstr ""
+
+msgid "Italian"
+msgstr "Ιταλικά"
+
+msgid "Portuguese"
+msgstr "Πορτογαλικά"
+
+msgid "FlaresoLverr"
+msgstr ""
+
+msgid "ScrapeNinja"
+msgstr ""
+
+msgid "Scrappey"
+msgstr ""
+
+msgid "20"
+msgstr ""
+
+msgid "30"
+msgstr ""
+
+msgid "50"
+msgstr ""
+
+msgid "Hours"
+msgstr "Ώρες"
+
+msgid "Days"
+msgstr "Ημέρες"
+
+msgid "Minutes"
+msgstr "Λεπτά"
+
+msgid "Turkey"
+msgstr "Τουρκία"
+
+msgid "Japon"
+msgstr "Ιαπωνία"
+
+msgid "E2iPlayer - settings"
+msgstr "E2iPlayer - Ρυθμίσεις"
+
+msgid "----- HIDDEN OPTIONS -----"
+msgstr "----- ΚΡΥΦΕΣ ΕΠΙΛΟΓΕΣ -----"
+
+msgid "Last checked version"
+msgstr "Τελευταία έκδοση που ελέγχθηκε"
+
+msgid "Show all version in the update menu"
+msgstr "Εμφάνιση όλων των εκδόσεων στο μενού ενημερώσεων"
+
+msgid "VFD set current title:"
+msgstr "Ορισμός τρέχοντος τίτλου VFD:"
+
+msgid "Write current title to file:"
+msgstr "Εγγραφή τρέχοντος τίτλου στο αρχείο:"
+
+msgid "The default aspect ratio for the external player"
+msgstr "Προεπιλεγμένος λόγος διαστάσεων εξωτερικής αναπαραγωγής"
+
+msgid "Hosts List Type-NOT FINISHED"
+msgstr "Τύπος λίστας hosts-ΔΕΝ ΟΛΟΚΛΗΡΩΘΗΚΕ"
+
+msgid "----- BASIC CONFIGURATION (OK) -----"
+msgstr "----- ΒΑΣΙΚΕΣ ΡΥΘΜΙΣΕΙΣ (ΟΚ) -----"
+
+msgid "Auto check for plugin update"
+msgstr "Αυτόματος έλεγχος ενημερώσεων του πρόσθετου"
+
+msgid "The preferred update server"
+msgstr "Προτιμώμενος διακομιστής ενημέρωσης"
+
+msgid "Add update from GitLab repository"
+msgstr "Προσθήκη ενημέρωσης από το αποθετήριο GitLab"
+
+msgid "E2iPlayer login"
+msgstr "Σύνδεση E2iPlayer"
+
+msgid "E2iPlayer password"
+msgstr "Κωδικός πρόσβασης E2iPlayer"
+
+msgid "Update"
+msgstr "Ενημέρωση"
+
+msgid "Virtual Keyboard type"
+msgstr "Τύπος εικονικού πληκτρολογίου"
+
+msgid "    Background color"
+msgstr "    Χρώμα φόντου"
+
+msgid "    Show suggestions"
+msgstr "    Εμφάνιση προτάσεων"
+
+msgid "    Default suggestions provider"
+msgstr "    Προεπιλεγμένος πάροχος προτάσεων"
+
+msgid "Platform"
+msgstr "Πλατφόρμα"
+
+msgid "Services configuration"
+msgstr "Ρυθμίσεις υπηρεσιών"
+
+msgid "Remove disabled services"
+msgstr "Αφαίρεση απενεργοποιημένων υπηρεσιών"
+
+msgid "Initialize web interface (experimental)"
+msgstr "Προετοιμασία διεπαφής ιστού (πειραματικό)"
+
+msgid "Disable live at plugin start"
+msgstr "Απενεργοποίηση ζωντανής μετάδοσης στην έναρξη του πρόσθετου"
+
+msgid "Pin protection for plugin"
+msgstr "Προστασία με pin για το πρόσθετο"
+
+msgid "Pin protection for configuration"
+msgstr "Προστασία με pin για τις ρυθμίσεις"
+
+msgid "Set pin code"
+msgstr "Ορισμός κωδικού pin"
+
+msgid "Enable Add IPAudio"
+msgstr "Ενεργοποίηση προσθήκης IPAudio"
+
+msgid "Xtream IPTV location"
+msgstr "Τοποθεσία Xtream IPTV"
+
+msgid "StalkerClient location"
+msgstr "Τοποθεσία StalkerClient"
+
+msgid "Skin"
+msgstr "Θέμα"
+
+msgid "Use colors"
+msgstr "Χρήση χρωμάτων"
+
+msgid "Display thumbnails"
+msgstr "Εμφάνιση μικρογραφιών"
+
+msgid "    Allowed formats of thumbnails"
+msgstr "    Επιτρεπόμενες μορφές μικρογραφιών"
+
+msgid "    Remove thumbnails"
+msgstr "    Αφαίρεση μικρογραφιών"
+
+msgid "    Enable hosts groups"
+msgstr "    Ενεργοποίηση ομάδων hosts"
+
+msgid "    Service icon size"
+msgstr "    Μέγεθος εικονιδίου υπηρεσίας"
+
+msgid "    Number of rows"
+msgstr "    Αριθμός σειρών"
+
+msgid "    Number of columns"
+msgstr "    Αριθμός στηλών"
+
+msgid "Use the PyCurl for HTTP(S) requests"
+msgstr "Χρήση PyCurl για αιτήματα HTTP(S)"
+
+msgid "https - validate SSL certificates"
+msgstr "https - Επικύρωση πιστοποιητικών SSL"
+
+msgid "----- PROXIES CONFIGURATION (OK) -----"
+msgstr "----- ΡΥΘΜΙΣΕΙΣ ΔΙΑΚΟΜΙΣΤΩΝ ΜΕΣΟΛΑΒΗΣΗΣ (OK) -----"
+
+msgid "Alternative proxy server (1)"
+msgstr "Εναλλακτικός διακομιστής μεσολάβησης (1)"
+
+msgid "Alternative proxy server (2)"
+msgstr "Εναλλακτικός διακομιστής μεσολάβησης (2)"
+
+msgid "Polish proxy server url"
+msgstr "URL πολωνικού διακομιστή μεσολάβησης"
+
+msgid "German proxy server url"
+msgstr "URL γερμανικού διακομιστή μεσολάβησης"
+
+msgid "Russian proxy server url"
+msgstr "URL ρωσικού διακομιστή μεσολάβησης"
+
+msgid "Ukrainian proxy server url"
+msgstr "URL ουκρανικού διακομιστή μεσολάβησης"
+
+msgid "Folder for cache data"
+msgstr "Φάκελος για δεδομένα κρυφής μνήμης"
+
+msgid "Folder for temporary data"
+msgstr "Φάκελος για προσωρινά δεδομένα"
+
+msgid "----- BUFFERING CONFIGURATION (OK) -----"
+msgstr "----- ΡΥΘΜΙΣΕΙΣ ΠΡΟΦΟΡΤΩΣΗΣ (OK) -----"
+
+msgid "[HTTP] buffering"
+msgstr "Προφόρτωση [HTTP]"
+
+msgid "[HLS/M3U8] buffering"
+msgstr "Προφόρτωση [HLS/M3U8]"
+
+msgid "[RTMP] buffering (rtmpdump required)"
+msgstr "Προφόρτωση [RTMP] (απαιτείται το rtmpdump)"
+
+msgid "    Video buffer size [MB]"
+msgstr "    Μέγεθος προφόρτωσης βίντεο [MB]"
+
+msgid "    Audio buffer size [KB]"
+msgstr "    Μέγεθος προφόρτωσης ήχου [KB]"
+
+msgid "Buffering location"
+msgstr "Τοποθεσία προφόρτωσης"
+
+msgid "----- DOWNLOADING CONFIGURATION (OK) -----"
+msgstr "----- ΡΥΘΜΙΣΕΙΣ ΛΗΨΕΩΝ (ΟΚ) -----"
+
+msgid "Downloads location"
+msgstr "Τοποθεσία λήψεων"
+
+msgid "Start download manager per default"
+msgstr "Έναρξη διαχείρισης λήψεων από προεπιλογή"
+
+msgid "Show download manager after adding new item"
+msgstr "Εμφάνιση διαχείρισης λήψεων μετά την προσθήκη νέου στοιχείου"
+
+msgid "Number of downloaded files simultaneously"
+msgstr "Αριθμός ταυτόχρονης λήψης αρχείων"
+
+msgid "My JDownloader e-mail"
+msgstr "Το e-mail μου στο JDownloader"
+
+msgid "My JDownloader password"
+msgstr "Ο κωδικός πρόσβασής μου στο JDownloader"
+
+msgid "My JDownloader device name"
+msgstr "Το όνομα της συσκευής μου JDownloader"
+
+msgid "----- CAPTCHA CONFIGURATION (OK) -----"
+msgstr "----- ΡΥΘΜΙΣΕΙΣ CAPTCHA (OK) -----"
+
+msgid "Default captcha bypass"
+msgstr "Προεπιλεγμένη παράκαμψη captcha"
+
+msgid "https://9kw.eu/ API KEY"
+msgstr ""
+
+msgid "http://2captcha.com/ API KEY"
+msgstr ""
+
+msgid "----- SUBTITLES CONFIGURATION (OK) -----"
+msgstr "----- ΡΥΘΜΙΣΕΙΣ ΥΠΟΤΙΤΛΩΝ (OK) -----"
+
+msgid "Use subtitles parser extension if available"
+msgstr "Χρήση επέκτασης ανάλυσης υποτίτλων, εάν είναι διαθέσιμη"
+
+msgid "http://opensubtitles.org/ login"
+msgstr "http://opensubtitles.org/ σύνδεση"
+
+msgid "http://opensubtitles.org/ password"
+msgstr "http://opensubtitles.org/ κωδικός πρόσβασης"
+
+msgid "http://napisy24.pl/ login"
+msgstr "http://napisy24.pl/ σύνδεση"
+
+msgid "http://napisy24.pl/ password"
+msgstr "http://napisy24.pl/ κωδικός πρόσβασης"
+
+msgid "https://subdl.com/ api"
+msgstr ""
+
+msgid "http://vk.com/ login"
+msgstr "http://vk.com/ σύνδεση"
+
+msgid "http://vk.com/ password"
+msgstr "http://vk.com/ κωδικός πρόσβασης"
+
+msgid "----- PLAYERS CONFIGURATION (OK) -----"
+msgstr "----- ΡΥΘΜΙΣΕΙΣ ΠΡΟΓΡΑΜΜΑΤΩΝ ΑΝΑΠΑΡΑΓΩΓΗΣ (ΟΚ) -----"
+
+msgid "Movie player"
+msgstr "Αναπαραγωγή ταινιών"
+
+msgid "External movie player config"
+msgstr "Διαμόρφωση εξωτερικής αναπαραγωγής ταινιών"
+
+msgid "----- TORRENT CONFIGURATION (OK) -----"
+msgstr "----- ΡΥΘΜΙΣΕΙΣ TORRENT (OK) -----"
+
+msgid "Autostart"
+msgstr "Αυτόματη εκκίνηση"
+
+msgid "HTTP Port"
+msgstr "Θύρα HTTP"
+
+msgid "Config Path"
+msgstr "Διαδρομή ρυθμίσεων"
+
+msgid "Configuring torrent web server"
+msgstr "Ρύθμιση διακομιστή web torrent"
+
+msgid "----- OTHER SETTINGS (OK) -----"
+msgstr "----- ΑΛΛΕΣ ΡΥΘΜΙΣΕΙΣ (OK) -----"
+
+msgid "Autoplay start delay"
+msgstr "Καθυστέρηση έναρξης αυτόματης αναπαραγωγής"
+
+msgid "The number of items in the search history"
+msgstr "Αριθμός στοιχείων στο ιστορικό αναζήτησης"
+
+msgid "Block wmv files"
+msgstr "Αποκλεισμός αρχείων wmv"
+
+msgid "Show IPTVPlayer in extension list"
+msgstr "Εμφάνιση του IPTVPlayer στη λίστα επεκτάσεων"
+
+msgid "Show IPTVPlayer in main menu"
+msgstr "Εμφάνιση του IPTVPlayer στο κύριο μενού"
+
+msgid "Debug logs"
+msgstr "Αρχεία εντοπισμού σφαλμάτων"
+
+msgid "Allow downgrade"
+msgstr "Επιτρέπεται η υποβάθμιση"
+
+msgid "Update packet type"
+msgstr "Τύπος ενημέρωσης πακέτου"
+
+msgid "----- KODI SETTINGS (OK) -----"
+msgstr "----- ΡΥΘΜΙΣΕΙΣ KODI (ΟΚ) -----"
+
+msgid "Display season and episode in title"
+msgstr "Εμφάνιση σεζόν και επεισοδίου στον τίτλο"
+
+msgid "Color Text note"
+msgstr "Έγχρωμη σημείωση κειμένου"
+
+msgid "Posters Size"
+msgstr "Μέγεθος αφίσας"
+
+msgid "Fanarts Size"
+msgstr "Μέγεθος Fanarts"
+
+msgid "Enable customized view"
+msgstr "Ενεργοποίηση προσαρμοσμένης προβολής"
+
+msgid "Activate search history"
+msgstr "Ενεργοποίηση ιστορικού αναζήτησης"
+
+msgid "Display Information"
+msgstr "Εμφάνιση πληροφοριών"
+
+msgid "Tmdb Account"
+msgstr "Λογαριασμός Tmdb"
+
+msgid "Search Metadata"
+msgstr "Αναζήτηση μεταδεδομένων"
+
+msgid "API TMDB"
+msgstr ""
+
+msgid "Language TMDB"
+msgstr "Γλώσσα TMDB"
+
+msgid "Session TMDB"
+msgstr "Συνεδρία TMDB"
+
+msgid "Display file infos"
+msgstr "Εμφάνιση πληροφοριών αρχείου"
+
+msgid "Use alternative site link"
+msgstr "Χρήση εναλλακτικού συνδέσμου ιστότοπου"
+
+msgid "Trakt Token"
+msgstr ""
+
+msgid "Use Cloudbypass during Search"
+msgstr "Χρήση του Cloudbypass κατά την αναζήτηση"
+
+msgid "Use Public Flaresolverr"
+msgstr "Χρήση δημόσιου Flaresolverr"
+
+msgid "Cloudflare Bypass"
+msgstr "Παράκαμψη Cloudflare"
+
+msgid "IP address for Flaresolverr"
+msgstr "Διεύθυνση IP για το Flaresolverr"
+
+msgid "RapidAPI"
+msgstr ""
+
+msgid "Your NID"
+msgstr "Το NID σας"
+
+msgid "View: Visual search"
+msgstr "Προβολή: Οπτική αναζήτηση"
+
+msgid "Allow adult content"
+msgstr "Επιτρέπεται το περιεχόμενο για ενηλίκους"
+
+msgid "Max Video Size in GB"
+msgstr "Μέγιστο μέγεθος βίντεο σε GB"
+
+msgid "Enable Requests Cache"
+msgstr "Ενεργοποίηση προσωρινής μνήμης αιτημάτων"
+
+msgid "Cache Expiration Time Unit"
+msgstr "Μονάδα χρόνου λήξης προσωρινής μνήμης"
+
+msgid "Cache Expiration Value"
+msgstr "Τιμή λήξης προσωρινής μνήμης"
+
+msgid "----- Premium/Login (OK) -----"
+msgstr "----- Premium/Σύνδεση (ΟΚ) -----"
+
+msgid "PlutoTV SID"
+msgstr ""
+
+msgid "PlutoTV deviceID"
+msgstr ""
+
+msgid "PlutoTV clientID"
+msgstr ""
+
+msgid "PasteBin Page"
+msgstr "PasteBin Σελίδα"
+
+msgid "PasteBin Duration"
+msgstr "PasteBin Διάρκεια"
+
+msgid "PasteBin Url"
+msgstr ""
+
+msgid "Live TV Channels Language"
+msgstr "Γλώσσα ζωντανών τηλεοπτικών καναλιών"
+
+msgid "1Fichier"
+msgstr ""
+
+msgid "e-mail"
+msgstr ""
+
+msgid "password"
+msgstr "κωδικός πρόσβασης"
+
+msgid "Alldebrid"
+msgstr ""
+
+msgid "Alldebrid Token"
+msgstr ""
+
+msgid "Alldebrid Url"
+msgstr ""
+
+msgid "DarkiBox"
+msgstr ""
+
+msgid "Debrid Link"
+msgstr "Debrid Σύνδεσμος"
+
+msgid "Client ID"
+msgstr ""
+
+msgid "Refresh Token"
+msgstr ""
+
+msgid "Uptobox"
+msgstr ""
+
+msgid "Default mode"
+msgstr "Προεπιλεγμένη λειτουργία"
+
+msgid "Real-Debrid"
+msgstr ""
+
+msgid "Uploaded"
+msgstr "Μεταφορτωμένα"
+
+msgid ""
+"Some changes will be applied only after plugin update.\n"
+"Do you want to perform update now?"
+msgstr ""
+"Ορισμένες αλλαγές θα εφαρμοστούν μόνο μετά την ενημέρωση του πρόσθετου.\n"
+"Θέλετε να εκτελέσετε την ενημέρωση τώρα;"
+
+msgid "Select directory"
+msgstr "Επιλογή καταλόγου"
+
+msgid "Enter old pin"
+msgstr "Εισαγωγή παλιού pin"
+
+msgid "Enter new pin"
+msgstr "Εισαγωγή νέου pin"
+
+msgid "Pin incorrect!"
+msgstr "Λάθος pin!"
+
+msgid "Confirm new pin"
+msgstr "Επιβεβαίωση νέου pin"
+
+msgid "Pin has been changed."
+msgstr "To pin άλλαξε."
+
+msgid "Confirmation error."
+msgstr "Σφάλμα επιβεβαίωσης."
