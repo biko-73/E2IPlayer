@@ -45,7 +45,16 @@ esac
 echo "Detected supported Python version: $python"
 echo "Using plugin version: $plugin"
 
-# Step 2: Dependency Management
+# Step 2: Check and Remove Old Version
+if [ -d "$INSTALL_DIR" ]; then
+    echo "Old version of E2IPlayer detected. Removing it..."
+    init 4  # Stop Enigma2
+    rm -rf "$INSTALL_DIR"
+    sed -i '/config.plugins.iptvplayer/d' "$SETTINGS"
+    echo "Old version removed successfully."
+fi
+
+# Step 3: Dependency Management
 echo "Checking and installing dependencies..."
 #########################################
 arrVar=("enigma2-plugin-extensions-e2iplayer-deps" "exteplayer3" "gstplayer" "python3-sqlite3" "python3-pycurl" "python3-json" "python3-requests" "python3-requests-cache" "python3-pycryptodome")
@@ -87,7 +96,7 @@ for dependency in "${arrVar[@]}"; do
 done
 #########################################
 
-# Step 3: Download the repository
+# Step 4: Download the repository
 echo "Downloading E2IPlayer from GitHub to $TMP_FILE..."
 wget -O $TMP_FILE https://codeload.github.com/biko-73/E2IPlayer/tar.gz/main
 
@@ -96,7 +105,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# Step 4: Extract the repository
+# Step 5: Extract the repository
 echo "Extracting E2IPlayer to $TMP_DIR..."
 mkdir -p $TMP_DIR
 tar -xzf $TMP_FILE -C $TMP_DIR
@@ -106,7 +115,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# Step 5: Install E2IPlayer
+# Step 6: Install E2IPlayer
 echo "Installing E2IPlayer to ${INSTALL_DIR}..."
 mkdir -p $INSTALL_DIR
 cp -r $TMP_DIR/E2IPlayer-main/* $INSTALL_DIR
@@ -116,7 +125,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# Step 6: Apply Settings
+# Step 7: Apply Settings
 echo "Applying settings..."
 sleep 3
 if [ -e "${PLUGINPATH}IPTVPlayer" ]; then
@@ -161,11 +170,11 @@ if [ -e "${PLUGINPATH}IPTVPlayer" ]; then
     } >>${SETTINGS}
 fi
 
-# Step 7: Clean up
+# Step 8: Clean up
 echo "Cleaning up temporary files..."
 rm -rf $TMP_FILE $TMP_DIR
 
-# Step 8: Restart Enigma2
+# Step 9: Restart Enigma2
 echo "Restarting Enigma2 to apply changes..."
 init 4
 sleep 5
