@@ -2,10 +2,6 @@
 
 # Script to download and install E2IPlayer for Enigma2 users
 
-#########################################################################################################
-wget https://raw.githubusercontent.com/biko-73/E2IPlayer/main/installer_E2.sh -O - | /bin/sh
-#########################################################################################################
-
 # Define variables
 REPO_URL="https://github.com/biko-73/E2IPlayer"
 INSTALL_DIR="/usr/lib/enigma2/python/Plugins/Extensions/E2IPlayer"
