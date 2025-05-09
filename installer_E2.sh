@@ -9,6 +9,8 @@ SETTINGS="/etc/enigma2/settings"
 PLUGINPATH="/usr/lib/enigma2/python/Plugins/Extensions/"
 MY_PATH="/usr/lib/enigma2/python/Plugins/Extensions/E2IPlayer/"
 VERSION="2025.05.09"  # Update with the appropriate version
+TMP_FILE="/tmp/E2IPlayer.tar.gz"  # Path for the downloaded file
+TMP_DIR="/tmp/E2IPlayer"  # Temporary directory for extraction
 
 echo "Starting the installation of E2IPlayer..."
 
@@ -86,16 +88,35 @@ done
 #########################################
 
 # Step 3: Download the repository
-TEMP_DIR=$(mktemp -d)
-echo "Downloading E2IPlayer from GitHub..."
-wget -qO- ${REPO_URL}/archive/refs/heads/master.tar.gz | tar -xz -C $TEMP_DIR
+echo "Downloading E2IPlayer from GitHub to $TMP_FILE..."
+wget -O $TMP_FILE https://codeload.github.com/biko-73/E2IPlayer/tar.gz/main
 
-# Step 4: Install E2IPlayer
+if [ $? -ne 0 ]; then
+    echo "Error: Failed to download the E2IPlayer repository."
+    exit 1
+fi
+
+# Step 4: Extract the repository
+echo "Extracting E2IPlayer to $TMP_DIR..."
+mkdir -p $TMP_DIR
+tar -xzf $TMP_FILE -C $TMP_DIR
+
+if [ $? -ne 0 ]; then
+    echo "Error: Failed to extract the E2IPlayer repository."
+    exit 1
+fi
+
+# Step 5: Install E2IPlayer
 echo "Installing E2IPlayer to ${INSTALL_DIR}..."
 mkdir -p $INSTALL_DIR
-cp -r $TEMP_DIR/E2IPlayer-master/* $INSTALL_DIR
+cp -r $TMP_DIR/E2IPlayer-main/* $INSTALL_DIR
 
-# Step 5: Apply Settings
+if [ $? -ne 0 ]; then
+    echo "Error: Failed to copy files to the installation directory."
+    exit 1
+fi
+
+# Step 6: Apply Settings
 echo "Applying settings..."
 sleep 3
 if [ -e "${PLUGINPATH}IPTVPlayer" ]; then
@@ -140,11 +161,11 @@ if [ -e "${PLUGINPATH}IPTVPlayer" ]; then
     } >>${SETTINGS}
 fi
 
-# Step 6: Clean up
+# Step 7: Clean up
 echo "Cleaning up temporary files..."
-rm -rf $TEMP_DIR
+rm -rf $TMP_FILE $TMP_DIR
 
-# Step 7: Restart Enigma2
+# Step 8: Restart Enigma2
 echo "Restarting Enigma2 to apply changes..."
 init 4
 sleep 5
