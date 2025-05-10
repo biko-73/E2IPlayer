@@ -26,14 +26,14 @@ if [ "$pyVersion" != "3" ]; then
 fi
 
 case $python in
-    3.9.9)
-        plugin="e2iplayer-py3.9.9"
+    3.9.*)
+        REQUIRED_FOLDER="E2IPlayer_py3.9.9"
         ;;
     3.12.*)
-        plugin="e2iplayer-py3.12"
+        REQUIRED_FOLDER="E2IPlayer_py3.12x"
         ;;
     3.13.*)
-        plugin="e2iplayer-py3.13"
+        REQUIRED_FOLDER="E2IPlayer_py3.13x"
         ;;
     *)
         echo "> Your image's Python version: $python is not supported."
@@ -43,7 +43,7 @@ case $python in
 esac
 
 echo "Detected supported Python version: $python"
-echo "Using plugin version: $plugin"
+echo "Using folder: $REQUIRED_FOLDER"
 
 # Step 2: Check and Remove Old Version
 if [ -d "$INSTALL_DIR" ]; then
@@ -105,20 +105,20 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# Step 5: Extract the repository
-echo "Extracting E2IPlayer to $TMP_DIR..."
+# Step 5: Extract only the required folder
+echo "Extracting only the required folder ($REQUIRED_FOLDER) to $TMP_DIR..."
 mkdir -p $TMP_DIR
-tar -xzf $TMP_FILE -C $TMP_DIR
+tar -xzf $TMP_FILE --strip-components=1 --wildcards "*/$REQUIRED_FOLDER/*" -C $TMP_DIR
 
 if [ $? -ne 0 ]; then
-    echo "Error: Failed to extract the E2IPlayer repository."
+    echo "Error: Failed to extract the required folder from the repository."
     exit 1
 fi
 
 # Step 6: Install E2IPlayer
 echo "Installing E2IPlayer to ${INSTALL_DIR}..."
 mkdir -p $INSTALL_DIR
-cp -r $TMP_DIR/E2IPlayer-main/* $INSTALL_DIR
+cp -r $TMP_DIR/* $INSTALL_DIR
 
 if [ $? -ne 0 ]; then
     echo "Error: Failed to copy files to the installation directory."
@@ -138,35 +138,9 @@ if [ -e "${PLUGINPATH}IPTVPlayer" ]; then
     sleep 2
     {
         echo "config.plugins.iptvplayer.AktualizacjaWmenu=true"
-        echo "config.plugins.iptvplayer.alternative${platform^^}MoviePlayer=extgstplayer"
-        echo "config.plugins.iptvplayer.alternative${platform^^}MoviePlayer0=extgstplayer"
         echo "config.plugins.iptvplayer.buforowanie_m3u8=false"
-        echo "config.plugins.iptvplayer.cmdwrappath=/usr/bin/cmdwrap"
-        echo "config.plugins.iptvplayer.debugprint=/tmp/iptv.dbg"
-        echo "config.plugins.iptvplayer.default${platform^^}MoviePlayer=exteplayer"
-        echo "config.plugins.iptvplayer.default${platform^^}MoviePlayer0=exteplayer"
-        echo "config.plugins.iptvplayer.extplayer_infobanner_clockformat=24"
-        echo "config.plugins.iptvplayer.extplayer_skin=line"
-        echo "config.plugins.iptvplayer.extplayer_subtitle_background=transparent"
-        echo "config.plugins.iptvplayer.extplayer_subtitle_border_width=1"
-        echo "config.plugins.iptvplayer.extplayer_subtitle_font_size=45"
-        echo "config.plugins.iptvplayer.extplayer_subtitle_line_height=65"
-        echo "config.plugins.iptvplayer.f4mdumppath=/usr/bin/f4mdump"
-        echo "config.plugins.iptvplayer.gstplayerpath=/usr/bin/gstplayer"
-        echo "config.plugins.iptvplayer.hlsdlpath=/usr/bin/hlsdl"
-        echo "config.plugins.iptvplayer.opensuborg_login=MOHAMED_OS"
-        echo "config.plugins.iptvplayer.opensuborg_password=&ghost@mcee2017&"
-        echo "config.plugins.iptvplayer.osk_type=system"
-        echo "config.plugins.iptvplayer.platform=${platform}"
-        echo "config.plugins.iptvplayer.remember_last_position=true"
-        echo "config.plugins.iptvplayer.rtmpdumppath=/usr/bin/rtmpdump"
-        echo "config.plugins.iptvplayer.uchardetpath=/usr/bin/uchardet"
-        echo "config.plugins.iptvplayer.updateLastCheckedVersion=${VERSION}"
         echo "config.plugins.iptvplayer.usepycurl=True"
-        echo "config.plugins.iptvplayer.watched_item_color=#FF0000"
-        echo "config.plugins.iptvplayer.wgetpath=wget"
-        echo "config.plugins.iptvplayer.ytDefaultformat=9999"
-        echo "config.plugins.iptvplayer.ytUseDF=False"
+        echo "config.plugins.iptvplayer.platform=${platform}"
     } >>${SETTINGS}
 fi
 
