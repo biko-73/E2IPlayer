@@ -60,8 +60,8 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# Download each file from the folder
-for file_url in $(jq -r '.[].download_url' $TMP_DIR/file_list.json); do
+# Parse the file list and download each file
+grep '"download_url":' $TMP_DIR/file_list.json | sed -E 's/.*"download_url": "(.*)",/\1/' | while read -r file_url; do
     wget -q -P $TMP_DIR "$file_url"
     if [ $? -ne 0 ]; then
         echo "Error: Failed to download $file_url"
