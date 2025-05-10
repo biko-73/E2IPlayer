@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Script to download and install E2IPlayer for Enigma2 users
-
 # Define variables
 BASE_API_URL="https://api.github.com/repos/biko-73/E2IPlayer/contents"
 INSTALL_DIR="/usr/lib/enigma2/python/Plugins/Extensions/E2IPlayer"
@@ -48,36 +46,48 @@ if [ -d "$INSTALL_DIR" ]; then
     echo "Old version removed successfully."
 fi
 
-# Step 3: Fetch the Required Folder Using GitHub API
-echo "Downloading required files from GitHub API ($BASE_API_URL/$REQUIRED_FOLDER)..."
-mkdir -p $TMP_DIR
+# Step 3: Recursive Function to Download Files
+download_files_recursively() {
+    local folder_url=$1
+    local target_dir=$2
 
-# Fetch file list from the folder
-curl -s "$BASE_API_URL/$REQUIRED_FOLDER" -o $TMP_DIR/file_list.json
+    # Fetch folder contents
+    curl -s "$folder_url" -o $TMP_DIR/current_folder.json
 
-if [ $? -ne 0 ]; then
-    echo "Error: Failed to fetch file list from $BASE_API_URL/$REQUIRED_FOLDER"
-    exit 1
-fi
-
-# Parse the file list and download each file
-grep '"download_url":' $TMP_DIR/file_list.json | sed -E 's/.*"download_url": "(.*)",/\1/' | while read -r file_url; do
-    wget -q -P $TMP_DIR "$file_url"
     if [ $? -ne 0 ]; then
-        echo "Error: Failed to download $file_url"
+        echo "Error: Failed to fetch folder contents from $folder_url"
         exit 1
     fi
-done
 
-# Step 4: Install E2IPlayer
-echo "Installing E2IPlayer to $INSTALL_DIR..."
+    # Parse each item in the folder
+    grep '"type":' $TMP_DIR/current_folder.json | while read -r line; do
+        local type=$(echo "$line" | grep -o '"type": "[^"]*' | cut -d '"' -f 4)
+        local path=$(grep -o '"path": "[^"]*' $TMP_DIR/current_folder.json | cut -d '"' -f 4)
+        local download_url=$(grep -o '"download_url": "[^"]*' $TMP_DIR/current_folder.json | cut -d '"' -f 4)
+
+        if [ "$type" = "file" ]; then
+            # Download the file
+            echo "Downloading file: $path"
+            wget -q -P "$target_dir" "$download_url"
+            if [ $? -ne 0 ]; then
+                echo "Error: Failed to download $download_url"
+                exit 1
+            fi
+        elif [ "$type" = "dir" ]; then
+            # Create the directory and fetch its contents
+            echo "Processing directory: $path"
+            mkdir -p "$target_dir/$(basename $path)"
+            download_files_recursively "$BASE_API_URL/$path?ref=main" "$target_dir/$(basename $path)"
+        fi
+    done
+}
+
+# Step 4: Start Recursive Download
+echo "Downloading required files from GitHub API ($BASE_API_URL/$REQUIRED_FOLDER)..."
+mkdir -p $TMP_DIR
 mkdir -p $INSTALL_DIR
-cp -r $TMP_DIR/* $INSTALL_DIR
 
-if [ $? -ne 0 ]; then
-    echo "Error: Failed to copy files to the installation directory."
-    exit 1
-fi
+download_files_recursively "$BASE_API_URL/$REQUIRED_FOLDER?ref=main" "$INSTALL_DIR"
 
 # Step 5: Clean up
 echo "Cleaning up temporary files..."
