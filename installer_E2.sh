@@ -3,14 +3,10 @@
 # Script to download and install E2IPlayer for Enigma2 users
 
 # Define variables
+GIT_REPO="https://github.com/biko-73/E2IPlayer.git"
 INSTALL_DIR="/usr/lib/enigma2/python/Plugins/Extensions/E2IPlayer"
 SETTINGS="/etc/enigma2/settings"
 PLUGINPATH="/usr/lib/enigma2/python/Plugins/Extensions/"
-
-BASE_URL="https://github.com/biko-73/E2IPlayer/tree/main"
-PY3_9_9_FOLDER="$BASE_URL/E2IPlayer_py3.9.9/usr/lib/enigma2/python/Plugins/Extensions"
-PY3_12X_FOLDER="$BASE_URL/E2IPlayer_py3.12x/usr/lib/enigma2/python/Plugins/Extensions"
-PY3_13X_FOLDER="$BASE_URL/E2IPlayer_py3.13x/usr/lib/enigma2/python/Plugins/Extensions"
 
 TMP_DIR="/tmp/E2IPlayer"  # Temporary directory for extraction
 
@@ -29,13 +25,13 @@ fi
 
 case $python in
     3.9.*)
-        DOWNLOAD_URL="$PY3_9_9_FOLDER"
+        REQUIRED_FOLDER="E2IPlayer_py3.9.9/usr/lib/enigma2/python/Plugins/Extensions"
         ;;
     3.12.*)
-        DOWNLOAD_URL="$PY3_12X_FOLDER"
+        REQUIRED_FOLDER="E2IPlayer_py3.12x/usr/lib/enigma2/python/Plugins/Extensions"
         ;;
     3.13.*)
-        DOWNLOAD_URL="$PY3_13X_FOLDER"
+        REQUIRED_FOLDER="E2IPlayer_py3.13x/usr/lib/enigma2/python/Plugins/Extensions"
         ;;
     *)
         echo "> Your image's Python version: $python is not supported."
@@ -45,7 +41,7 @@ case $python in
 esac
 
 echo "Detected supported Python version: $python"
-echo "Using folder: $DOWNLOAD_URL"
+echo "Using folder: $REQUIRED_FOLDER"
 
 # Step 2: Check and Remove Old Version
 if [ -d "$INSTALL_DIR" ]; then
@@ -56,30 +52,26 @@ if [ -d "$INSTALL_DIR" ]; then
     echo "Old version removed successfully."
 fi
 
-# Step 3: Download only the required folder
-echo "Downloading only the required folder ($DOWNLOAD_URL)..."
+# Step 3: Clone the repository and copy the required folder
+echo "Cloning the repository and extracting the required folder..."
 mkdir -p $TMP_DIR
-cd $TMP_DIR
-
-# Clone the folder contents
-wget -r -np -nH --cut-dirs=6 -R "index.html*" "$DOWNLOAD_URL"
+git clone --depth 1 "$GIT_REPO" $TMP_DIR
 
 if [ $? -ne 0 ]; then
-    echo "Error: Failed to download the required folder."
+    echo "Error: Failed to clone the repository."
     exit 1
 fi
 
-# Step 4: Install E2IPlayer
-echo "Installing E2IPlayer to ${INSTALL_DIR}..."
+# Copy only the required folder
 mkdir -p $INSTALL_DIR
-cp -r $TMP_DIR/* $INSTALL_DIR
+cp -r $TMP_DIR/$REQUIRED_FOLDER/* $INSTALL_DIR
 
 if [ $? -ne 0 ]; then
     echo "Error: Failed to copy files to the installation directory."
     exit 1
 fi
 
-# Step 5: Apply Settings
+# Step 4: Apply Settings
 echo "Applying settings..."
 sleep 3
 if [ -e "${PLUGINPATH}IPTVPlayer" ]; then
@@ -97,11 +89,11 @@ if [ -e "${PLUGINPATH}IPTVPlayer" ]; then
     } >>${SETTINGS}
 fi
 
-# Step 6: Clean up
+# Step 5: Clean up
 echo "Cleaning up temporary files..."
 rm -rf $TMP_DIR
 
-# Step 7: Restart Enigma2
+# Step 6: Restart Enigma2
 echo "Restarting Enigma2 to apply changes..."
 init 4
 sleep 5
