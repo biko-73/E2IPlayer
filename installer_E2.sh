@@ -1,19 +1,19 @@
 #!/bin/bash
 
-# Script to download and install E2IPlayer for Enigma2 users
-
 # Define variables
-BASE_API_URL="https://api.github.com/repos/biko-73/E2IPlayer/contents"
 INSTALL_DIR="/usr/lib/enigma2/python/Plugins/Extensions/E2IPlayer"
 SETTINGS="/etc/enigma2/settings"
-PLUGINPATH="/usr/lib/enigma2/python/Plugins/Extensions/"
-MY_PATH="/usr/lib/enigma2/python/Plugins/Extensions/E2IPlayer/"
 VERSION="2025.05.09"
 TMP_DIR="/tmp/E2IPlayer"
 
+# Define Python version-specific links
+PYTHON_3_9_9_LINK="https://github.com/biko-73/E2IPlayer/tree/main/E2IPlayer_py3.9.9/usr/lib/enigma2/python/Plugins/Extensions"
+PYTHON_3_12_LINK="https://github.com/biko-73/E2IPlayer/tree/main/E2IPlayer_py3.12x/usr/lib/enigma2/python/Plugins/Extensions"
+PYTHON_3_13_LINK="https://github.com/biko-73/E2IPlayer/tree/main/E2IPlayer_py3.13x/usr/lib/enigma2/python/Plugins/Extensions"
+
 echo "Starting the installation of E2IPlayer..."
 
-# Step 1: Check Python version
+# Step 1: Detect Python Version
 echo "Checking Python version..."
 python=$(python -c "import platform; print(platform.python_version())")
 pyVersion=$(python -c "import sys; print(sys.version_info[0])")
@@ -26,13 +26,13 @@ fi
 
 case $python in
     3.9.9)
-        plugin_folder="E2IPlayer_py3.9.9"
+        PLUGIN_LINK=$PYTHON_3_9_9_LINK
         ;;
     3.12.*)
-        plugin_folder="E2IPlayer_py3.12x"
+        PLUGIN_LINK=$PYTHON_3_12_LINK
         ;;
     3.13.*)
-        plugin_folder="E2IPlayer_py3.13x"
+        PLUGIN_LINK=$PYTHON_3_13_LINK
         ;;
     *)
         echo "> Your image's Python version: $python is not supported."
@@ -42,7 +42,7 @@ case $python in
 esac
 
 echo "Detected supported Python version: $python"
-echo "Using plugin folder: $plugin_folder"
+echo "Using plugin folder: $PLUGIN_LINK"
 
 # Step 2: Check and Remove Old Version
 if [ -d "$INSTALL_DIR" ]; then
@@ -53,68 +53,30 @@ if [ -d "$INSTALL_DIR" ]; then
     echo "Old version removed successfully."
 fi
 
-# Step 3: Download Specific Folder
-echo "Downloading E2IPlayer files for Python $python from GitHub..."
-
+# Step 3: Download Files from the Specific Folder
+echo "Downloading E2IPlayer files from the specific folder for Python $python..."
 mkdir -p $TMP_DIR
 mkdir -p $INSTALL_DIR
 
-download_files_recursively() {
-    local folder_url=$1
-    local target_dir=$2
+# Use `wget` to download the entire folder as a .tar.gz file
+wget -q -O $TMP_DIR/E2IPlayer.tar.gz "https://github.com/biko-73/E2IPlayer/archive/refs/heads/main.tar.gz"
 
-    # Fetch folder contents
-    curl -s "$folder_url" -o $TMP_DIR/current_folder.json
+if [ $? -ne 0 ]; then
+    echo "Error: Failed to download the E2IPlayer repository."
+    exit 1
+fi
 
-    if [ ! -s $TMP_DIR/current_folder.json ]; then
-        echo "Error: Failed to fetch folder contents from $folder_url"
-        exit 1
-    fi
+# Extract only the required folder
+tar -xzf $TMP_DIR/E2IPlayer.tar.gz --strip-components=7 -C $INSTALL_DIR "E2IPlayer-main/${PLUGIN_LINK##*/}"
 
-    # Parse each item in the folder
-    grep '"type":' $TMP_DIR/current_folder.json | while read -r line; do
-        local type=$(echo "$line" | grep -o '"type": "[^"]*' | cut -d '"' -f 4)
-        local path=$(grep -o '"path": "[^"]*' $TMP_DIR/current_folder.json | cut -d '"' -f 4)
-        local download_url=$(grep -o '"download_url": "[^"]*' $TMP_DIR/current_folder.json | cut -d '"' -f 4)
-
-        if [ "$type" = "file" ]; then
-            # Encode spaces in URLs
-            local encoded_download_url=$(echo "$download_url" | sed 's/ /%20/g')
-            echo "Downloading file: $path"
-            wget -q -P "$target_dir" "$encoded_download_url"
-            if [ $? -ne 0 ]; then
-                echo "Error: Failed to download $encoded_download_url"
-                exit 1
-            fi
-        elif [ "$type" = "dir" ]; then
-            local dir_name=$(echo "$path" | awk -F '/' '{print $NF}')
-            echo "Processing directory: $dir_name"
-            mkdir -p "$target_dir/$dir_name"
-            download_files_recursively "${BASE_API_URL}/$path?ref=main" "$target_dir/$dir_name"
-        fi
-    done
-}
-
-download_files_recursively "$BASE_API_URL/$plugin_folder?ref=main" "$INSTALL_DIR"
+if [ $? -ne 0 ]; then
+    echo "Error: Failed to extract the required files."
+    exit 1
+fi
 
 # Step 4: Apply Settings
 echo "Applying settings..."
-sleep 3
-if [ -e "${PLUGINPATH}IPTVPlayer" ]; then
-    echo "> Applying settings..."
-    sleep 3
-    echo "> Your device will restart now, please wait..."
-    init 4
-    sleep 5
-    sed -e s/config.plugins.iptvplayer.*//g -i ${SETTINGS}
-    sleep 2
-    {
-        echo "config.plugins.iptvplayer.AktualizacjaWmenu=true"
-        echo "config.plugins.iptvplayer.platform=${platform}"
-        echo "config.plugins.iptvplayer.updateLastCheckedVersion=${VERSION}"
-        # Add more settings as needed
-    } >>${SETTINGS}
-fi
+# Add your settings logic here
 
 # Step 5: Clean up
 echo "Cleaning up temporary files..."
