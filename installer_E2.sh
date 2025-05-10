@@ -3,10 +3,10 @@
 # Script to download and install E2IPlayer for Enigma2 users
 
 # Define variables
-BASE_URL="https://raw.githubusercontent.com/biko-73/E2IPlayer/main"
+REPO_URL="https://github.com/biko-73/E2IPlayer/archive/refs/heads/main.tar.gz"
 INSTALL_DIR="/usr/lib/enigma2/python/Plugins/Extensions/E2IPlayer"
-PLUGINPATH="/usr/lib/enigma2/python/Plugins/Extensions/"
 TMP_DIR="/tmp/E2IPlayer"
+REQUIRED_FOLDER="E2IPlayer-main/E2IPlayer_py3.12x/usr/lib/enigma2/python/Plugins/Extensions"
 
 echo "Starting the installation of E2IPlayer..."
 
@@ -23,13 +23,13 @@ fi
 
 case $python in
     3.9.*)
-        REQUIRED_FOLDER="E2IPlayer_py3.9.9/usr/lib/enigma2/python/Plugins/Extensions"
+        REQUIRED_FOLDER="E2IPlayer-main/E2IPlayer_py3.9.9/usr/lib/enigma2/python/Plugins/Extensions"
         ;;
     3.12.*)
-        REQUIRED_FOLDER="E2IPlayer_py3.12x/usr/lib/enigma2/python/Plugins/Extensions"
+        REQUIRED_FOLDER="E2IPlayer-main/E2IPlayer_py3.12x/usr/lib/enigma2/python/Plugins/Extensions"
         ;;
     3.13.*)
-        REQUIRED_FOLDER="E2IPlayer_py3.13x/usr/lib/enigma2/python/Plugins/Extensions"
+        REQUIRED_FOLDER="E2IPlayer-main/E2IPlayer_py3.13x/usr/lib/enigma2/python/Plugins/Extensions"
         ;;
     *)
         echo "> Your image's Python version: $python is not supported."
@@ -49,29 +49,28 @@ if [ -d "$INSTALL_DIR" ]; then
     echo "Old version removed successfully."
 fi
 
-# Step 3: Download required files
-echo "Downloading required files from $BASE_URL/$REQUIRED_FOLDER..."
+# Step 3: Download and Extract the Repository
+echo "Downloading the E2IPlayer repository..."
 mkdir -p $TMP_DIR
+wget -q -O $TMP_DIR/E2IPlayer.tar.gz "$REPO_URL"
 
-# List of files to download (replace with actual filenames in the folder)
-FILES=(
-    "IPTVPlayer.py"
-    "some_other_file.py"
-    "yet_another_file.py"
-)
+if [ $? -ne 0 ]; then
+    echo "Error: Failed to download the repository."
+    exit 1
+fi
 
-for file in "${FILES[@]}"; do
-    wget -q "$BASE_URL/$REQUIRED_FOLDER/$file" -P $TMP_DIR
-    if [ $? -ne 0 ]; then
-        echo "Error: Failed to download $file"
-        exit 1
-    fi
-done
+echo "Extracting the repository..."
+tar -xzf $TMP_DIR/E2IPlayer.tar.gz -C $TMP_DIR
 
-# Step 4: Install E2IPlayer
-echo "Installing E2IPlayer to ${INSTALL_DIR}..."
+if [ $? -ne 0 ]; then
+    echo "Error: Failed to extract the repository."
+    exit 1
+fi
+
+# Step 4: Copy the Required Folder
+echo "Installing E2IPlayer to $INSTALL_DIR..."
 mkdir -p $INSTALL_DIR
-cp -r $TMP_DIR/* $INSTALL_DIR
+cp -r $TMP_DIR/$REQUIRED_FOLDER/* $INSTALL_DIR
 
 if [ $? -ne 0 ]; then
     echo "Error: Failed to copy files to the installation directory."
