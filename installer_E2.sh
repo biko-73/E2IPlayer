@@ -6,7 +6,6 @@
 BASE_API_URL="https://api.github.com/repos/biko-73/E2IPlayer/contents"
 INSTALL_DIR="/usr/lib/enigma2/python/Plugins/Extensions/E2IPlayer"
 TMP_DIR="/tmp/E2IPlayer"
-ACCESS_TOKEN="your_github_personal_access_token" # Optional, if rate limits are an issue
 
 echo "Starting the installation of E2IPlayer..."
 
@@ -54,11 +53,7 @@ echo "Downloading required files from GitHub API ($BASE_API_URL/$REQUIRED_FOLDER
 mkdir -p $TMP_DIR
 
 # Fetch file list from the folder
-if [ -z "$ACCESS_TOKEN" ]; then
-    curl -s "$BASE_API_URL/$REQUIRED_FOLDER" -o $TMP_DIR/file_list.json
-else
-    curl -s -H "Authorization: token $ACCESS_TOKEN" "$BASE_API_URL/$REQUIRED_FOLDER" -o $TMP_DIR/file_list.json
-fi
+curl -s "$BASE_API_URL/$REQUIRED_FOLDER" -o $TMP_DIR/file_list.json
 
 if [ $? -ne 0 ]; then
     echo "Error: Failed to fetch file list from $BASE_API_URL/$REQUIRED_FOLDER"
