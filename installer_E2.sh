@@ -7,15 +7,19 @@ TMP_DIR="/tmp/E2IPlayer"
 
 echo "Starting the installation of E2IPlayer..."
 
-# Function to recursively download files
+# Recursive Function to Download Files
 download_files_recursively() {
     local folder_url=$1
     local target_dir=$2
 
     # Fetch folder contents
-    curl -s "$folder_url" -o $TMP_DIR/current_folder.json
+    for attempt in {1..3}; do
+        curl -s "$folder_url" -o $TMP_DIR/current_folder.json && break
+        echo "Retrying folder fetch ($attempt/3): $folder_url"
+        sleep 2
+    done
 
-    if [ $? -ne 0 ]; then
+    if [ ! -s $TMP_DIR/current_folder.json ]; then
         echo "Error: Failed to fetch folder contents from $folder_url"
         exit 1
     fi
@@ -27,13 +31,12 @@ download_files_recursively() {
         local download_url=$(grep -o '"download_url": "[^"]*' $TMP_DIR/current_folder.json | cut -d '"' -f 4)
 
         if [ "$type" = "file" ]; then
-            # Encode spaces in URLs
             local encoded_download_url=$(echo "$download_url" | sed 's/ /%20/g')
             echo "Downloading file: $path"
 
             for attempt in {1..3}; do
                 wget -q -P "$target_dir" "$encoded_download_url" && break
-                echo "Retrying download ($attempt/3): $encoded_download_url"
+                echo "Retrying file download ($attempt/3): $encoded_download_url"
                 sleep 2
             done
 
@@ -42,20 +45,20 @@ download_files_recursively() {
                 exit 1
             fi
         elif [ "$type" = "dir" ]; then
-            # Create the directory and fetch its contents
-            echo "Processing directory: $path"
-            mkdir -p "$target_dir/$(basename $path)"
-            download_files_recursively "$BASE_API_URL/$path?ref=main" "$target_dir/$(basename $path)"
+            local dir_name=$(echo "$path" | awk -F '/' '{print $NF}')
+            echo "Processing directory: $dir_name"
+            mkdir -p "$target_dir/$dir_name"
+            download_files_recursively "$BASE_API_URL/$path?ref=main" "$target_dir/$dir_name"
         fi
     done
 }
 
 # Start Recursive Download
-echo "Downloading required files from GitHub API ($BASE_API_URL/$REQUIRED_FOLDER)..."
+echo "Downloading required files from GitHub API ($BASE_API_URL)..."
 mkdir -p $TMP_DIR
 mkdir -p $INSTALL_DIR
 
-download_files_recursively "$BASE_API_URL/$REQUIRED_FOLDER?ref=main" "$INSTALL_DIR"
+download_files_recursively "$BASE_API_URL?ref=main" "$INSTALL_DIR"
 
 # Clean up
 echo "Cleaning up temporary files..."
