@@ -3,10 +3,10 @@
 # Script to download and install E2IPlayer for Enigma2 users
 
 # Define variables
-REPO_URL="https://github.com/biko-73/E2IPlayer/archive/refs/heads/main.tar.gz"
+BASE_API_URL="https://api.github.com/repos/biko-73/E2IPlayer/contents"
 INSTALL_DIR="/usr/lib/enigma2/python/Plugins/Extensions/E2IPlayer"
 TMP_DIR="/tmp/E2IPlayer"
-REQUIRED_FOLDER="E2IPlayer-main/E2IPlayer_py3.12x/usr/lib/enigma2/python/Plugins/Extensions"
+ACCESS_TOKEN="your_github_personal_access_token" # Optional, if rate limits are an issue
 
 echo "Starting the installation of E2IPlayer..."
 
@@ -23,13 +23,13 @@ fi
 
 case $python in
     3.9.*)
-        REQUIRED_FOLDER="E2IPlayer-main/E2IPlayer_py3.9.9/usr/lib/enigma2/python/Plugins/Extensions"
+        REQUIRED_FOLDER="E2IPlayer_py3.9.9/usr/lib/enigma2/python/Plugins/Extensions"
         ;;
     3.12.*)
-        REQUIRED_FOLDER="E2IPlayer-main/E2IPlayer_py3.12x/usr/lib/enigma2/python/Plugins/Extensions"
+        REQUIRED_FOLDER="E2IPlayer_py3.12x/usr/lib/enigma2/python/Plugins/Extensions"
         ;;
     3.13.*)
-        REQUIRED_FOLDER="E2IPlayer-main/E2IPlayer_py3.13x/usr/lib/enigma2/python/Plugins/Extensions"
+        REQUIRED_FOLDER="E2IPlayer_py3.13x/usr/lib/enigma2/python/Plugins/Extensions"
         ;;
     *)
         echo "> Your image's Python version: $python is not supported."
@@ -49,34 +49,35 @@ if [ -d "$INSTALL_DIR" ]; then
     echo "Old version removed successfully."
 fi
 
-# Step 3: Download and Extract the Repository
-echo "Downloading the E2IPlayer repository..."
+# Step 3: Fetch the Required Folder Using GitHub API
+echo "Downloading required files from GitHub API ($BASE_API_URL/$REQUIRED_FOLDER)..."
 mkdir -p $TMP_DIR
-REPO_FILE="$TMP_DIR/E2IPlayer.tar.gz"
 
-# Remove any previous corrupted downloads
-rm -f $REPO_FILE
-
-# Download with retries
-wget --show-progress --tries=3 -O $REPO_FILE "$REPO_URL"
+# Fetch file list from the folder
+if [ -z "$ACCESS_TOKEN" ]; then
+    curl -s "$BASE_API_URL/$REQUIRED_FOLDER" -o $TMP_DIR/file_list.json
+else
+    curl -s -H "Authorization: token $ACCESS_TOKEN" "$BASE_API_URL/$REQUIRED_FOLDER" -o $TMP_DIR/file_list.json
+fi
 
 if [ $? -ne 0 ]; then
-    echo "Error: Failed to download the repository."
+    echo "Error: Failed to fetch file list from $BASE_API_URL/$REQUIRED_FOLDER"
     exit 1
 fi
 
-echo "Extracting the repository..."
-tar -xzf $REPO_FILE -C $TMP_DIR
+# Download each file from the folder
+for file_url in $(jq -r '.[].download_url' $TMP_DIR/file_list.json); do
+    wget -q -P $TMP_DIR "$file_url"
+    if [ $? -ne 0 ]; then
+        echo "Error: Failed to download $file_url"
+        exit 1
+    fi
+done
 
-if [ $? -ne 0 ]; then
-    echo "Error: Failed to extract the repository."
-    exit 1
-fi
-
-# Step 4: Copy the Required Folder
+# Step 4: Install E2IPlayer
 echo "Installing E2IPlayer to $INSTALL_DIR..."
 mkdir -p $INSTALL_DIR
-cp -r $TMP_DIR/$REQUIRED_FOLDER/* $INSTALL_DIR
+cp -r $TMP_DIR/* $INSTALL_DIR
 
 if [ $? -ne 0 ]; then
     echo "Error: Failed to copy files to the installation directory."
