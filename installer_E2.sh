@@ -52,7 +52,13 @@ fi
 # Step 3: Download and Extract the Repository
 echo "Downloading the E2IPlayer repository..."
 mkdir -p $TMP_DIR
-wget -q -O $TMP_DIR/E2IPlayer.tar.gz "$REPO_URL"
+REPO_FILE="$TMP_DIR/E2IPlayer.tar.gz"
+
+# Remove any previous corrupted downloads
+rm -f $REPO_FILE
+
+# Download with retries
+wget --show-progress --tries=3 -O $REPO_FILE "$REPO_URL"
 
 if [ $? -ne 0 ]; then
     echo "Error: Failed to download the repository."
@@ -60,7 +66,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "Extracting the repository..."
-tar -xzf $TMP_DIR/E2IPlayer.tar.gz -C $TMP_DIR
+tar -xzf $REPO_FILE -C $TMP_DIR
 
 if [ $? -ne 0 ]; then
     echo "Error: Failed to extract the repository."
