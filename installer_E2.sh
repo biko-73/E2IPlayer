@@ -3,12 +3,10 @@
 # Script to download and install E2IPlayer for Enigma2 users
 
 # Define variables
-GIT_REPO="https://github.com/biko-73/E2IPlayer.git"
+BASE_URL="https://raw.githubusercontent.com/biko-73/E2IPlayer/main"
 INSTALL_DIR="/usr/lib/enigma2/python/Plugins/Extensions/E2IPlayer"
-SETTINGS="/etc/enigma2/settings"
 PLUGINPATH="/usr/lib/enigma2/python/Plugins/Extensions/"
-
-TMP_DIR="/tmp/E2IPlayer"  # Temporary directory for extraction
+TMP_DIR="/tmp/E2IPlayer"
 
 echo "Starting the installation of E2IPlayer..."
 
@@ -48,45 +46,36 @@ if [ -d "$INSTALL_DIR" ]; then
     echo "Old version of E2IPlayer detected. Removing it..."
     init 4  # Stop Enigma2
     rm -rf "$INSTALL_DIR"
-    sed -i '/config.plugins.iptvplayer/d' "$SETTINGS"
     echo "Old version removed successfully."
 fi
 
-# Step 3: Clone the repository and copy the required folder
-echo "Cloning the repository and extracting the required folder..."
+# Step 3: Download required files
+echo "Downloading required files from $BASE_URL/$REQUIRED_FOLDER..."
 mkdir -p $TMP_DIR
-git clone --depth 1 "$GIT_REPO" $TMP_DIR
 
-if [ $? -ne 0 ]; then
-    echo "Error: Failed to clone the repository."
-    exit 1
-fi
+# List of files to download (replace with actual filenames in the folder)
+FILES=(
+    "IPTVPlayer.py"
+    "some_other_file.py"
+    "yet_another_file.py"
+)
 
-# Copy only the required folder
+for file in "${FILES[@]}"; do
+    wget -q "$BASE_URL/$REQUIRED_FOLDER/$file" -P $TMP_DIR
+    if [ $? -ne 0 ]; then
+        echo "Error: Failed to download $file"
+        exit 1
+    fi
+done
+
+# Step 4: Install E2IPlayer
+echo "Installing E2IPlayer to ${INSTALL_DIR}..."
 mkdir -p $INSTALL_DIR
-cp -r $TMP_DIR/$REQUIRED_FOLDER/* $INSTALL_DIR
+cp -r $TMP_DIR/* $INSTALL_DIR
 
 if [ $? -ne 0 ]; then
     echo "Error: Failed to copy files to the installation directory."
     exit 1
-fi
-
-# Step 4: Apply Settings
-echo "Applying settings..."
-sleep 3
-if [ -e "${PLUGINPATH}IPTVPlayer" ]; then
-    echo "> Applying settings..."
-    sleep 3
-    echo "> Your device will restart now, please wait..."
-    init 4
-    sleep 5
-    sed -e s/config.plugins.iptvplayer.*//g -i ${SETTINGS}
-    sleep 2
-    {
-        echo "config.plugins.iptvplayer.AktualizacjaWmenu=true"
-        echo "config.plugins.iptvplayer.buforowanie_m3u8=false"
-        echo "config.plugins.iptvplayer.usepycurl=True"
-    } >>${SETTINGS}
 fi
 
 # Step 5: Clean up
