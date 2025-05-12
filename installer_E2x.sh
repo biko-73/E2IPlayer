@@ -110,7 +110,7 @@ done
 
 # Step 3: Download the repository
 echo "Downloading and extracting E2IPlayer from GitHub..."
-wget --show-progress -qO- ${REPO_URL}/archive/refs/heads/master.tar.gz | tar -xzv -C $TEMP_DIR
+wget --show-progress -qO- ${REPO_URL}/archive/refs/heads/master.tar.gz | tar -xz -C $TEMP_DIR
 
 # Step 4: Install E2IPlayer
 echo "Installing E2IPlayer to ${INSTALL_DIR}..."
