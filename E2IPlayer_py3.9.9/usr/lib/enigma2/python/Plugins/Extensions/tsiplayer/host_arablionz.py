@@ -10,7 +10,7 @@ import base64
 def getinfo():
     info_={}
     name = 'Arblionz'
-    hst = 'https://arlionztv.cam'
+    hst = 'https://arablionztv.online'
     info_['old_host'] = hst
     hst_ = tshost(name)	
     if hst_!='': hst = hst_
